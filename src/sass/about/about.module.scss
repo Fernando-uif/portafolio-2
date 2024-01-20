@@ -1,6 +1,11 @@
 @import "../variables/color.scss";
 .about {
   position: relative;
+  &__wrapperOval {
+    top: 100px;
+    position: absolute;
+    left: calc(-530px / 2);
+  }
   &__wrapperName {
     display: flex;
     flex-direction: column;
@@ -27,6 +32,7 @@
     text-align: center;
     position: relative;
     margin-bottom: 40px;
+    overflow: hidden;
   }
   &__profileImage {
     height: 300px;
@@ -35,7 +41,7 @@
   &__svg_circle {
     position: absolute;
     right: -63px;
-    top: 254px;
+    top: 163px;
   }
   &__wrapperAboutGreetings {
     padding: 16px;
@@ -63,34 +69,7 @@
     line-height: 26px;
     margin-bottom: 24px;
   }
-  &__wrapperContactMe {
-    text-align: center;
-  }
-  &__contactMe {
-    text-transform: uppercase;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 26px; /* 162.5% */
-    letter-spacing: 2.286px;
-    color: $light;
-    padding-bottom: 10px;
-    text-decoration: none;
-    position: relative;
-    // border-bottom: 2px solid $border-color;
-    &::after {
-      transition: width 0.6s ease;
-      content: "";
-      position: absolute;
-      width: 0%;
-      height: 2px;
-      background-color: $border-color;
-      bottom: 0;
-      left: 50%;
-      transform: translateX(-50%);
-    }
-    &:hover::after {
-      width: 100%;
-    }
+  &__wrapperAboutMe{
+    margin-bottom: 92px;
   }
 }

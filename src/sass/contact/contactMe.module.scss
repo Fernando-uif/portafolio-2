@@ -1,0 +1,33 @@
+@import "../variables/color.scss";
+
+.contactMe {
+  text-align: center;
+  &__item {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: 2.286px;
+    color: $light;
+    padding-bottom: 10px;
+    text-decoration: none;
+    position: relative;
+    // border-bottom: 2px solid $border-color;
+
+    &::after {
+      transition: width 0.6s ease;
+      content: "";
+      position: absolute;
+      width: 0%;
+      height: 2px;
+      background-color: $border-color;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    &:hover::after {
+      width: 100%;
+    }
+  }
+}
