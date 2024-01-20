@@ -3,6 +3,7 @@ import Icon from "../Icons/Icon";
 import Image from "next/image";
 import Link from "next/link";
 import ContactMe from "../contact/ContactMe";
+import ContactMeIcons from "../contact/ContactMeIcons";
 
 const About = () => {
   return (
@@ -14,21 +15,11 @@ const About = () => {
         <h1 className={`${aboutStyle["about__wrapperName__name"]}`}>
           Fernando Sosa
         </h1>
-        <div className={`${aboutStyle["about__wrapperName__icons"]}`}>
-          <Link href={"#"}>
-            <Icon name="twitter" />
-          </Link>
-          <Link href={"#"}>
-            <Icon name="linkedin" />
-          </Link>
-          <Link href={"#"}>
-            <Icon name="github" />
-          </Link>
-        </div>
+        <ContactMeIcons />
       </div>
       <figure className={`${aboutStyle["about__wrapperImage"]}`}>
         <Image
-          src={"/assets/images/image-profile-mobile.webp"}
+          src={"/assets/images/design/image-profile-mobile.webp"}
           alt="fernando sosa"
           height={242}
           width={174}
@@ -70,7 +61,7 @@ const About = () => {
           allow me to create interesting elements
         </p>
         <div className={`${aboutStyle["about__wrapperAboutMe"]}`}>
-          <ContactMe name="contact me"/>
+          <ContactMe name="contact me" />
         </div>
       </div>
     </section>

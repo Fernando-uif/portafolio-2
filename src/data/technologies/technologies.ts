@@ -16,8 +16,20 @@ export const technologies: TechnologiesProps[] = [
     experience: "2",
   },
   {
+    name: "style components",
+    experience: "1.1",
+  },
+  {
     name: "Java Script",
     experience: "3",
+  },
+  {
+    name: "jquery",
+    experience: "1.7",
+  },
+  {
+    name: "nodejs",
+    experience: "2.5",
   },
   {
     name: "Typescript",
@@ -26,5 +38,14 @@ export const technologies: TechnologiesProps[] = [
   {
     name: "React",
     experience: "1.5",
+  },
+
+  {
+    name: "graphql/apollo",
+    experience: "1.1",
+  },
+  {
+    name: "nextjs",
+    experience: "1.1",
   },
 ];

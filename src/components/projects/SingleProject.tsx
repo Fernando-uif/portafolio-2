@@ -1,41 +1,61 @@
-import React from "react";
 import Image from "next/image";
-import { projects } from "@/data/projects/projects";
+import { ProjectsProps } from "@/data/projects/projects";
 import singleProjectStyle from "@/sass/projects/singleProject.module.scss";
+import ContactMe from "../contact/ContactMe";
+import Link from "next/link";
 
-const SingleProject = () => {
+const SingleProject = ({
+  name,
+  technologies,
+  urlImage,
+  view,
+}: ProjectsProps) => {
   return (
-    <figure className={`${singleProjectStyle["singleProject"]}`}>
-      <Image
-        src={"/assets/images/projects/todo.png"}
-        alt="alt"
-        width={300}
-        height={300}
-        className={`${singleProjectStyle["singleProject__image"]}`}
-      />
-      <figcaption
-        className={`${singleProjectStyle["singleProject__figcaption"]}`}
-      >
-        <span className={`${singleProjectStyle["singleProject__title"]}`}>
-          DESIGN PORTFOLIO
-        </span>
-        <div
-          className={`${singleProjectStyle["singleProject__useTechnologies"]}`}
+    <>
+      <figure className={`${singleProjectStyle["singleProject"]}`}>
+        <Image
+          src={urlImage}
+          alt={urlImage}
+          width={300}
+          height={300}
+          className={`${singleProjectStyle["singleProject__image"]}`}
+        />
+        <figcaption
+          className={`${singleProjectStyle["singleProject__figcaption"]}`}
         >
-          <span
-            className={`${singleProjectStyle["singleProject__useTechnologies-item"]}`}
-          >
-            HTML
+          <span className={`${singleProjectStyle["singleProject__title"]}`}>
+            {name}
           </span>
-          <span
-            className={`${singleProjectStyle["singleProject__useTechnologies-item"]}`}
+
+          <div
+            className={`${singleProjectStyle["singleProject__useTechnologies"]}`}
           >
-            CSS
-          </span>
-        </div>
-        
-      </figcaption>
-    </figure>
+            {technologies.map((techno) => (
+              <>
+                <span
+                  className={`${singleProjectStyle["singleProject__useTechnologies-item"]}`}
+                >
+                  {techno}
+                </span>
+              </>
+            ))}
+          </div>
+
+          <div
+            className={`${singleProjectStyle["singleProject__wrapperSources"]}`}
+          >
+            {view.map((src, index) => {
+              if (!src?.name) return <></>;
+              return (
+                <>
+                  <ContactMe name={src.name} url={src.url} />
+                </>
+              );
+            })}
+          </div>
+        </figcaption>
+      </figure>
+    </>
   );
 };
 

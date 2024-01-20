@@ -1,0 +1,23 @@
+.contactIcons {
+  &__wrapperName {
+    &__icons {
+      display: flex;
+      gap: 20px;
+      & > div {
+        cursor: pointer;
+      }
+    }
+  }
+  &__icon {
+    &-phone {
+      display: block;
+      height: 100%;
+      width: 100%;
+      transform: translateY(4px);
+      & svg {
+        width: 24px;
+        height: 24px;
+      }
+    }
+  }
+}

@@ -16,6 +16,7 @@
     line-height: 40px; /* 125% */
     letter-spacing: -1px;
     color: $light;
+    text-transform: capitalize;
   }
   &__experience {
     font-size: 16px;
@@ -29,5 +30,4 @@
     bottom: 0;
     right: -400px;
   }
-  
 }

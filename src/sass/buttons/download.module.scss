@@ -1,0 +1,36 @@
+@import "../variables/color.scss";
+.download {
+  background-color: transparent;
+  &__button {
+    text-transform: uppercase;
+    padding: 25px 50px;
+    border: 3px solid $light;
+    transition: 0.5s ease;
+    position: relative;
+    display: inline;
+    overflow: hidden;
+    color: #fff;
+    cursor: pointer;
+    z-index: 1;
+    &::after,
+    &::before {
+      content: "";
+      position: absolute;
+      width: 50%;
+      height: 100%;
+      background-color: $border-color;
+      z-index: -1;
+    }
+
+    &::after {
+      right: 0;
+      bottom: 0;
+
+    }
+    &::before {
+
+      left: 0;
+      bottom: 0;
+    }
+  }
+}

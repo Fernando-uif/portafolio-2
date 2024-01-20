@@ -69,7 +69,19 @@
     line-height: 26px;
     margin-bottom: 24px;
   }
-  &__wrapperAboutMe{
+  &__wrapperAboutMe {
     margin-bottom: 92px;
+  }
+  &__icon {
+    &-phone {
+      display: block;
+      height: 100%;
+      width: 100%;
+      transform: translateY(4px);
+      & svg {
+        width: 24px;
+        height: 24px;
+      }
+    }
   }
 }
