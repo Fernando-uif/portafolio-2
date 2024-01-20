@@ -1,0 +1,96 @@
+@import "../variables/color.scss";
+.about {
+  position: relative;
+  &__wrapperName {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    &__name {
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 32px; /* 133.333% */
+      letter-spacing: -0.333px;
+      margin: 20px 23px 0 22px;
+    }
+    &__icons {
+      display: flex;
+      gap: 20px;
+      & > div {
+        cursor: pointer;
+      }
+    }
+  }
+  &__wrapperImage {
+    margin: unset;
+    text-align: center;
+    position: relative;
+    margin-bottom: 40px;
+  }
+  &__profileImage {
+    height: 300px;
+    object-fit: cover;
+  }
+  &__svg_circle {
+    position: absolute;
+    right: -63px;
+    top: 254px;
+  }
+  &__wrapperAboutGreetings {
+    padding: 16px;
+  }
+  &__wrapperGreetings {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 100% */
+    letter-spacing: -1.136px;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  &__greetings {
+    margin: unset;
+  }
+  &__name {
+    border-bottom: 4px solid $border-color;
+  }
+  &__myGoal {
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    margin-bottom: 24px;
+  }
+  &__wrapperContactMe {
+    text-align: center;
+  }
+  &__contactMe {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: 2.286px;
+    color: $light;
+    padding-bottom: 10px;
+    text-decoration: none;
+    position: relative;
+    // border-bottom: 2px solid $border-color;
+    &::after {
+      transition: width 0.6s ease;
+      content: "";
+      position: absolute;
+      width: 0%;
+      height: 2px;
+      background-color: $border-color;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    &:hover::after {
+      width: 100%;
+    }
+  }
+}
