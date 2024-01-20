@@ -1,7 +1,6 @@
 import { Children } from "react";
 import technologiesStyle from "@/sass/technologies/technologies.module.scss";
 import { technologies } from "@/data/technologies/technologies";
-import Oval from "../about/Oval";
 import Icon from "../Icons/Icon";
 
 interface TechnologiesProps {

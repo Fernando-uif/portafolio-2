@@ -1,3 +1,18 @@
-.project{
-    
+@import "../variables/color.scss";
+.project {
+  &__wrapperTitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 19px;
+    margin-bottom: 40px;
+  }
+  &__title {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 100% */
+    letter-spacing: -1.136px;
+    color: $light;
+  }
 }

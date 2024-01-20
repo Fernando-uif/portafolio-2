@@ -70,7 +70,7 @@ const About = () => {
           allow me to create interesting elements
         </p>
         <div className={`${aboutStyle["about__wrapperAboutMe"]}`}>
-          <ContactMe />
+          <ContactMe name="contact me"/>
         </div>
       </div>
     </section>
