@@ -3,6 +3,9 @@
   &__wrapper {
     padding: 0 16px;
     margin-bottom: 40px;
+    @media screen and (min-width:766px) {
+        padding: 0 32px;
+    }
   }
   background-color: $light;
   width: 100%;

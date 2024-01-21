@@ -11,9 +11,12 @@ const Projects = () => {
         <h2 className={`${projectStyles["project__title"]}`}>Projects</h2>
         <ContactMe name="contact me" />
       </div>
+      <div className={`${projectStyles['project__wrapperProjects']}`}>
       {projects.map((project, index) => {
         return <SingleProject key={index} {...project} />;
       })}
+
+      </div>
     </section>
   );
 };

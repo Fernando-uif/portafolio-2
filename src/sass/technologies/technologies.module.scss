@@ -3,11 +3,28 @@
 .technologie {
   position: relative;
   overflow: hidden;
+  @media screen and (min-width: 766px) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 7px;
+    row-gap: 52px;
+    padding: 0 32px;
+  }
+  @media screen and (min-width:1440px) {
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 35px;
+    row-gap: 58px;
+
+      
+  }
   &__wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 24px;
+    @media screen and (min-width: 766px) {
+      gap: 14px;
+    }
   }
   &__name {
     font-size: 32px;
@@ -17,6 +34,13 @@
     letter-spacing: -1px;
     color: $light;
     text-transform: capitalize;
+    @media screen and (min-width: 766px) {
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 56px; /* 116.667% */
+      letter-spacing: -1.5px;
+    }
   }
   &__experience {
     font-size: 16px;
@@ -24,6 +48,12 @@
     font-weight: 500;
     line-height: 26px;
     color: $experience;
+    @media screen and (min-width: 766px) {
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 28px;
+    }
   }
   &__wrapperOval {
     position: absolute;

@@ -16,9 +16,10 @@ const SingleProject = ({
         <Image
           src={urlImage}
           alt={urlImage}
-          width={300}
-          height={300}
+          width={800}
+          height={600}
           className={`${singleProjectStyle["singleProject__image"]}`}
+          quality={100}
         />
         <figcaption
           className={`${singleProjectStyle["singleProject__figcaption"]}`}

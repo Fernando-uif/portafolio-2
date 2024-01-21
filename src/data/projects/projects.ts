@@ -18,15 +18,19 @@ export const projects: ProjectsProps[] = [
     urlImage: "/assets/images/projects/elections-2023.png",
   },
   {
-    name: "TODO",
-    technologies: ["html", "css", "Java Script"],
+    name: "space tourism",
+    technologies: ["html", "sass", "react"],
     view: [
       {
         name: "view project",
-        url: "https://resilient-baklava-3d3a0d.netlify.app/",
+        url: "https://dainty-muffin-1efc1c.netlify.app/",
+      },
+      {
+        name: "view code",
+        url: "https://github.com/Fernando-uif/space-tourism",
       },
     ],
-    urlImage: "/assets/images/projects/todo.png",
+    urlImage: "/assets/images/projects/space.png",
   },
   {
     name: "Rick and Morty App",
@@ -44,21 +48,6 @@ export const projects: ProjectsProps[] = [
     urlImage: "/assets/images/projects/ricknmorty.png",
   },
   {
-    name: "bookmark",
-    technologies: ["html", "css", "tailwind", "javascript", "github"],
-    view: [
-      {
-        name: "view project",
-        url: "https://fernando-uif.github.io/bookmark/",
-      },
-      {
-        name: "view code",
-        url: "https://github.com/Fernando-uif/bookmark",
-      },
-    ],
-    urlImage: "/assets/images/projects/bookmark.png",
-  },
-  {
     name: "sunnyside",
     technologies: ["html", "sass", "react"],
     view: [
@@ -72,51 +61,6 @@ export const projects: ProjectsProps[] = [
       },
     ],
     urlImage: "/assets/images/projects/sunnyside.png",
-  },
-  {
-    name: "credit Card",
-    technologies: ["html", "sass", "javascript"],
-    view: [
-      {
-        name: "view project",
-        url: "https://stirring-cassata-bd3937.netlify.app/",
-      },
-      {
-        name: "view code",
-        url: "https://github.com/Fernando-uif/interactive-card",
-      },
-    ],
-    urlImage: "/assets/images/projects/creditCard.png",
-  },
-  {
-    name: "E-commerce",
-    technologies: ["html", "sass", "javascript"],
-    view: [
-      {
-        name: "view project",
-        url: "https://fernando-uif.github.io/ecommerce-product/",
-      },
-      {
-        name: "view code",
-        url: "https://github.com/Fernando-uif/ecommerce-product",
-      },
-    ],
-    urlImage: "/assets/images/projects/commerce.png",
-  },
-  {
-    name: "space tourism",
-    technologies: ["html", "sass", "react"],
-    view: [
-      {
-        name: "view project",
-        url: "https://dainty-muffin-1efc1c.netlify.app/",
-      },
-      {
-        name: "view code",
-        url: "https://github.com/Fernando-uif/space-tourism",
-      },
-    ],
-    urlImage: "/assets/images/projects/space.png",
   },
   {
     name: "count down",
@@ -162,6 +106,74 @@ export const projects: ProjectsProps[] = [
       },
     ],
     urlImage: "/assets/images/projects/easybank.png",
+  },
+
+  {
+    name: "Portafolio 1",
+    technologies: ["html", "css", "typeScript"],
+    view: [
+      {
+        name: "view project",
+        url: "https://resilient-baklava-3d3a0d.netlify.app/",
+      },
+    ],
+    urlImage: "/assets/images/projects/portafolio-1.png",
+  },
+  {
+    name: "TODO",
+    technologies: ["html", "css", "JavaScript"],
+    view: [
+      {
+        name: "view project",
+        url: "https://fernando-uif.github.io/portafolio/",
+      },
+    ],
+    urlImage: "/assets/images/projects/todo.png",
+  },
+  {
+    name: "bookmark",
+    technologies: ["html", "css", "tailwind", "javascript", "github"],
+    view: [
+      {
+        name: "view project",
+        url: "https://fernando-uif.github.io/bookmark/",
+      },
+      {
+        name: "view code",
+        url: "https://github.com/Fernando-uif/bookmark",
+      },
+    ],
+    urlImage: "/assets/images/projects/bookmark.png",
+  },
+  {
+    name: "credit Card",
+    technologies: ["html", "sass", "javascript"],
+    view: [
+      {
+        name: "view project",
+        url: "https://stirring-cassata-bd3937.netlify.app/",
+      },
+      {
+        name: "view code",
+        url: "https://github.com/Fernando-uif/interactive-card",
+      },
+    ],
+    urlImage: "/assets/images/projects/creditCard.png",
+  },
+  {
+    name: "E-commerce",
+    technologies: ["html", "sass", "javascript"],
+    view: [
+      {
+        name: "view project",
+        url: "https://fernando-uif.github.io/ecommerce-product/",
+      },
+      {
+        name: "view code",
+        url: "https://github.com/Fernando-uif/ecommerce-product",
+      },
+    ],
+    urlImage: "/assets/images/projects/commerce.png",
   },
   {
     name: "loop-studio",

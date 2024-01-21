@@ -14,7 +14,13 @@
     text-decoration: none;
     position: relative;
     // border-bottom: 2px solid $border-color;
-
+    @media screen and (min-width: 766px) {
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 26px; /* 162.5% */
+      letter-spacing: 2.286px;
+    }
     &::after {
       transition: width 0.6s ease;
       content: "";
@@ -28,6 +34,9 @@
     }
     &:hover::after {
       width: 100%;
+    }
+    &:hover {
+      color: $border-color;
     }
   }
 }

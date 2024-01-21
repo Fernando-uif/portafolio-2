@@ -17,51 +17,54 @@ const About = () => {
         </h1>
         <ContactMeIcons />
       </div>
-      <figure className={`${aboutStyle["about__wrapperImage"]}`}>
-        <Image
-          src={"/assets/images/design/image-profile-mobile.webp"}
-          alt="fernando sosa"
-          height={242}
-          width={174}
-          className={`${aboutStyle["about__profileImage"]}`}
-        />
-        <svg
-          className={`${aboutStyle["about__svg_circle"]}`}
-          xmlns="http://www.w3.org/2000/svg"
-          width="129"
-          height="129"
-        >
-          <circle
-            cx="830.5"
-            cy="585.5"
-            r="64"
-            fill="none"
-            stroke="#FFF"
-            transform="translate(-766 -521)"
-          />
-        </svg>
-      </figure>
 
       <div className={`${aboutStyle["about__wrapperAboutGreetings"]}`}>
-        <div className={`${aboutStyle["about__wrapperGreetings"]}`}>
-          <p className={`${aboutStyle["about__greetings"]}`}>
-            Nice to meet you!
+        <figure className={`${aboutStyle["about__wrapperImage"]}`}>
+          <Image
+            src={"/assets/images/design/image-profile-desktop.webp"}
+            alt="fernando sosa"
+            height={242}
+            width={174}
+            className={`${aboutStyle["about__profileImage"]}`}
+            quality={100}
+          />
+          <svg
+            className={`${aboutStyle["about__svg_circle"]}`}
+            xmlns="http://www.w3.org/2000/svg"
+            width="129"
+            height="129"
+          >
+            <circle
+              cx="830.5"
+              cy="585.5"
+              r="64"
+              fill="none"
+              stroke="#FFF"
+              transform="translate(-766 -521)"
+            />
+          </svg>
+        </figure>
+        <div>
+          <div className={`${aboutStyle["about__wrapperGreetings"]}`}>
+            <p className={`${aboutStyle["about__greetings"]}`}>
+              Nice to meet you!
+            </p>
+            <p className={`${aboutStyle["about__greetings"]}`}>
+              I&apos;m
+              <span className={`${aboutStyle["about__name"]}`}>
+                {" "}
+                Fernando Sosa
+              </span>
+            </p>
+          </div>
+          <p className={`${aboutStyle["about__myGoal"]}`}>
+            Located in Mexico City. I am a web developer passionate about
+            building accessible web applications as well as learning new
+            technologies that allow me to create interesting elements
           </p>
-          <p className={`${aboutStyle["about__greetings"]}`}>
-            I&apos;m
-            <span className={`${aboutStyle["about__name"]}`}>
-              {" "}
-              Fernando Sosa
-            </span>
-          </p>
-        </div>
-        <p className={`${aboutStyle["about__myGoal"]}`}>
-          Located in Mexico City. I am a web developer passionate about building
-          accessible web applications as well as learning new technologies that
-          allow me to create interesting elements
-        </p>
-        <div className={`${aboutStyle["about__wrapperAboutMe"]}`}>
-          <ContactMe name="contact me" />
+          <div className={`${aboutStyle["about__wrapperAboutMe"]}`}>
+            <ContactMe name="contact me" />
+          </div>
         </div>
       </div>
     </section>
