@@ -93,7 +93,10 @@ abbr[title] {
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
-
+*::selection {
+  background-color: #ffcc00; /* Color de fondo cuando se selecciona el texto */
+  color: #333; /* Color del texto cuando se selecciona */
+}
 b,
 strong {
   font-weight: bolder;
