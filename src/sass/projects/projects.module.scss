@@ -1,5 +1,9 @@
 @import "../variables/color.scss";
 .project {
+  @media screen and (min-width: 1440px) {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
   &__wrapperTitle {
     display: flex;
     align-items: center;

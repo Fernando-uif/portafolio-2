@@ -10,12 +10,12 @@
     row-gap: 52px;
     padding: 0 32px;
   }
-  @media screen and (min-width:1440px) {
+  @media screen and (min-width: 1440px) {
     grid-template-columns: repeat(3, 1fr);
     column-gap: 35px;
     row-gap: 58px;
-
-      
+    max-width: 1440px;
+    margin: 0 auto;
   }
   &__wrapper {
     display: flex;

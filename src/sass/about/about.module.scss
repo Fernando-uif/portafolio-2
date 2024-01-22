@@ -2,7 +2,7 @@
 .about {
   position: relative;
   @media screen and (min-width: 1280px) {
-    max-width: 1109px;
+    max-width: 1440px;
     margin: 0 auto;
   }
   &__wrapperOval {
@@ -11,6 +11,9 @@
     left: calc(-530px / 2);
     @media screen and (min-width: 766px) {
       top: 50px;
+    }
+    @media screen and (min-width: 1440px) {
+      left: 0;
     }
   }
   &__wrapperName {
@@ -78,6 +81,10 @@
     position: absolute;
     right: -63px;
     top: 163px;
+    @media screen and (min-width: 1440px) {
+      right: 340px;
+      top: 341px;
+    }
   }
   &__wrapperAboutGreetings {
     padding: 16px;
@@ -140,7 +147,6 @@
       text-align: left;
       margin-bottom: 34px;
     }
- 
   }
   &__wrapperAboutMe {
     margin-bottom: 92px;

@@ -13,14 +13,31 @@ const SingleProject = ({
   return (
     <>
       <figure className={`${singleProjectStyle["singleProject"]}`}>
-        <Image
-          src={urlImage}
-          alt={urlImage}
-          width={800}
-          height={600}
-          className={`${singleProjectStyle["singleProject__image"]}`}
-          quality={100}
-        />
+        
+        <div className={`${singleProjectStyle["singleProject__wrapperImage"]}`}>
+          <div
+            className={`${singleProjectStyle["singleProject__wrapperSources-hover"]}`}
+          >
+            {view.map((src, index) => {
+              if (!src?.name) return <></>;
+              return (
+                <>
+                  <ContactMe name={src.name} url={src.url} />
+                </>
+              );
+            })}
+          </div>
+
+          <Image
+            src={urlImage}
+            alt={urlImage}
+            width={800}
+            height={600}
+            className={`${singleProjectStyle["singleProject__image"]}`}
+            quality={100}
+          />
+        </div>
+
         <figcaption
           className={`${singleProjectStyle["singleProject__figcaption"]}`}
         >

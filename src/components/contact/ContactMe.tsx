@@ -4,10 +4,11 @@ import contactMeStyles from "@/sass/contact/contactMe.module.scss";
 interface LinkToProps {
   name: string;
   url?: string;
+  className?: string;
 }
-const ContactMe = ({ name, url }: LinkToProps) => {
+const ContactMe = ({ name, url, className }: LinkToProps) => {
   return (
-    <div className={`${contactMeStyles["contactMe"]}`}>
+    <div className={`${contactMeStyles["contactMe"]} ${className}`}>
       <Link
         className={`${contactMeStyles["contactMe__item"]}`}
         href={url || ""}
