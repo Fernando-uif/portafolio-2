@@ -6,7 +6,7 @@ const ContactMeIcons = () => {
   return (
     <div className={`${contactIconStyle["contactIcons__wrapperName__icons"]}`}>
       <Link
-        href={"http://wa.me/5523923346"}
+        href={"https://wa.me/5523923346"}
         className={`${contactIconStyle["contactIcons--item"]}`}
       >
         <Icon

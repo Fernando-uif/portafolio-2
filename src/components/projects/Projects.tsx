@@ -9,7 +9,7 @@ const Projects = () => {
     <section className={`${projectStyles["project"]}`}>
       <div className={`${projectStyles["project__wrapperTitle"]}`}>
         <h2 className={`${projectStyles["project__title"]}`}>Projects</h2>
-        <ContactMe name="contact me" url="http://wa.me/5523923346" />
+        <ContactMe name="contact me" url="https://wa.me/5523923346" />
       </div>
       <div className={`${projectStyles["project__wrapperProjects"]}`}>
         {Children.toArray(
