@@ -114,7 +114,7 @@ export const projects: ProjectsProps[] = [
     view: [
       {
         name: "view project",
-        url: "https://resilient-baklava-3d3a0d.netlify.app/",
+        url: "https://fernando-uif.github.io/portafolio/",
       },
     ],
     urlImage: "/assets/images/projects/portafolio-1.png",
