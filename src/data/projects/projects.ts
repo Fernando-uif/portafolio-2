@@ -110,7 +110,7 @@ export const projects: ProjectsProps[] = [
 
   {
     name: "Portafolio 1",
-    technologies: ["html", "css", "typeScript"],
+    technologies: ["html", "css", "typeScript"], 
     view: [
       {
         name: "view project",
