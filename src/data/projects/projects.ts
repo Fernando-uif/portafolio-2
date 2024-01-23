@@ -115,7 +115,7 @@ export const projects: ProjectsProps[] = [
       {
         name: "view project",
         url: "https://fernando-uif.github.io/portafolio/",
-      },
+      }, 
     ],
     urlImage: "/assets/images/projects/portafolio-1.png",
   },
