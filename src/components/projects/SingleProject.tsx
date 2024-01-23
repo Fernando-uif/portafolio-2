@@ -1,8 +1,8 @@
+import { Children } from "react";
 import Image from "next/image";
 import { ProjectsProps } from "@/data/projects/projects";
 import singleProjectStyle from "@/sass/projects/singleProject.module.scss";
 import ContactMe from "../contact/ContactMe";
-import Link from "next/link";
 
 const SingleProject = ({
   name,
@@ -13,19 +13,20 @@ const SingleProject = ({
   return (
     <>
       <figure className={`${singleProjectStyle["singleProject"]}`}>
-        
         <div className={`${singleProjectStyle["singleProject__wrapperImage"]}`}>
           <div
             className={`${singleProjectStyle["singleProject__wrapperSources-hover"]}`}
           >
-            {view.map((src, index) => {
-              if (!src?.name) return <></>;
-              return (
-                <>
-                  <ContactMe name={src.name} url={src.url} />
-                </>
-              );
-            })}
+            {Children.toArray(
+              view.map((src, index) => {
+                if (!src?.name) return <></>;
+                return (
+                  <>
+                    <ContactMe name={src.name} url={src.url} />
+                  </>
+                );
+              })
+            )}
           </div>
 
           <Image
@@ -48,28 +49,32 @@ const SingleProject = ({
           <div
             className={`${singleProjectStyle["singleProject__useTechnologies"]}`}
           >
-            {technologies.map((techno) => (
-              <>
-                <span
-                  className={`${singleProjectStyle["singleProject__useTechnologies-item"]}`}
-                >
-                  {techno}
-                </span>
-              </>
-            ))}
+            {Children.toArray(
+              technologies.map((techno) => (
+                <>
+                  <span
+                    className={`${singleProjectStyle["singleProject__useTechnologies-item"]}`}
+                  >
+                    {techno}
+                  </span>
+                </>
+              ))
+            )}
           </div>
 
           <div
             className={`${singleProjectStyle["singleProject__wrapperSources"]}`}
           >
-            {view.map((src, index) => {
-              if (!src?.name) return <></>;
-              return (
-                <>
-                  <ContactMe name={src.name} url={src.url} />
-                </>
-              );
-            })}
+            {Children.toArray(
+              view.map((src, index) => {
+                if (!src?.name) return <></>;
+                return (
+                  <>
+                    <ContactMe name={src.name} url={src.url} />
+                  </>
+                );
+              })
+            )}
           </div>
         </figcaption>
       </figure>
