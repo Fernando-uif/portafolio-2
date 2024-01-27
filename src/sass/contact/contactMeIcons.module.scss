@@ -23,7 +23,7 @@
   }
   &--item:hover {
     & > span > svg > path {
-      fill: $border-color;
+      fill: $secondary-color;
     }
   }
 }

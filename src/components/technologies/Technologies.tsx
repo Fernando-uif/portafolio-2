@@ -1,33 +1,13 @@
-import { Children } from "react";
 import technologiesStyle from "@/sass/technologies/technologies.module.scss";
-import { technologies } from "@/data/technologies/technologies";
-import Icon from "../Icons/Icon";
 
-interface TechnologiesProps {
-  name: string;
-  experience: string;
-}
+import Icon from "../Icons/Icon";
+import Technoligie from "./Technologie";
 
 const Technologies = () => {
   return (
     <>
       <section className={`${technologiesStyle["technologie"]}`}>
-        {Children.toArray(
-          technologies.map((tech) => (
-            <>
-              <div className={`${technologiesStyle["technologie__wrapper"]}`}>
-                <span className={`${technologiesStyle["technologie__name"]}`}>
-                  {tech.name}
-                </span>
-                <span
-                  className={`${technologiesStyle["technologie__experience"]}`}
-                >
-                  {tech.experience} Years Experience
-                </span>
-              </div>
-            </>
-          ))
-        )}
+        <Technoligie />
         <div className={`${technologiesStyle["technologie__wrapperOval"]}`}>
           <Icon name="rings" />
         </div>

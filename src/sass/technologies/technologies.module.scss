@@ -22,8 +22,28 @@
     flex-direction: column;
     align-items: center;
     margin-bottom: 24px;
+    transition: transform 1s linear;
     @media screen and (min-width: 766px) {
       gap: 14px;
+    }
+    &-translateOffRight {
+      transform: translateX(100%);
+      @media screen and (min-width: 834px) {
+        transform: translateX(200%);
+      }
+      @media screen and (min-width: 1280px) {
+      }
+    }
+    &-translateOffLeft {
+      transform: translateX(-100%);
+      @media screen and (min-width: 834px) {
+        transform: translateX(-200%);
+      }
+      @media screen and (min-width: 1280px) {
+      }
+    }
+    &-translateIn {
+      transform: translateX(0%);
     }
   }
   &__name {

@@ -21,7 +21,7 @@ const About = () => {
       <div className={`${aboutStyle["about__wrapperAboutGreetings"]}`}>
         <figure className={`${aboutStyle["about__wrapperImage"]}`}>
           <Image
-            src={"/assets/images/design/image-profile-desktop.webp"}
+            src={"/assets/images/design/profile-image.png"}
             alt="fernando sosa"
             height={242}
             width={174}
