@@ -1,0 +1,35 @@
+@import "../variables/color.scss";
+.topButton {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  background-color: $third-color;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  border: none;
+  transition: opacity 0.3s, transform 0.3s ease;
+  @media screen and (min-width: 834px) {
+    bottom: 50px;
+    right: 50px;
+  }
+  @media screen and (min-width: 1280px) {
+  }
+  &:hover {
+    transform: translateY(-5px);
+  }
+  &-show {
+    opacity: 1;
+    z-index: 100;
+    transform: translateY(0%);
+  }
+  &-notShow {
+    opacity: 0;
+    transform: translateY(200%);
+  }
+}

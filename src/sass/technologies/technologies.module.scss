@@ -32,6 +32,7 @@
         transform: translateX(200%);
       }
       @media screen and (min-width: 1280px) {
+        transform: translateX(100%);
       }
     }
     &-translateOffLeft {
@@ -40,6 +41,7 @@
         transform: translateX(-200%);
       }
       @media screen and (min-width: 1280px) {
+        transform: translateX(-100%);
       }
     }
     &-translateIn {
