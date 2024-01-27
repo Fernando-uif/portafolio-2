@@ -1,8 +1,8 @@
 @import "../variables/color.scss";
 .topButton {
   border-radius: 50%;
-  height: 40px;
-  width: 40px;
+  height: 50px;
+  width: 50px;
   background-color: $third-color;
   cursor: pointer;
 
@@ -10,8 +10,8 @@
   justify-content: center;
   align-items: center;
   position: fixed;
-  bottom: 15px;
-  right: 15px;
+  bottom: 30px;
+  right: 30px;
   border: none;
   transition: opacity 0.3s, transform 0.3s ease;
   @media screen and (min-width: 834px) {
