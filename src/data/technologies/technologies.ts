@@ -20,7 +20,7 @@ export const technologies: TechnologiesProps[] = [
     experience: "1.1",
   },
   {
-    name: "Java Script",
+    name: "Javascript",
     experience: "3",
   },
   {

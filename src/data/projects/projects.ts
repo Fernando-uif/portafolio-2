@@ -13,7 +13,7 @@ interface ViewProps {
 export const projects: ProjectsProps[] = [
   {
     name: "election maps n+ (televisa)",
-    technologies: ["next", "sass", "nodejs", "d3js"],
+    technologies: ["next", "sass", "nodejs", "d3js",'graphql/apollo'],
     view: [],
     urlImage: "/assets/images/projects/elections-2023.png",
   },
