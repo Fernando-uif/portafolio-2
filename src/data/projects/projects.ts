@@ -13,7 +13,7 @@ interface ViewProps {
 export const projects: ProjectsProps[] = [
   {
     name: "election maps n+ (televisa)",
-    technologies: ["next", "sass", "nodejs", "d3js",'graphql/apollo'],
+    technologies: ["next", "sass", "nodejs", "d3js", "graphql/apollo"],
     view: [],
     urlImage: "/assets/images/projects/elections-2023.png",
   },
@@ -78,6 +78,21 @@ export const projects: ProjectsProps[] = [
     urlImage: "/assets/images/projects/countdown.png",
   },
   {
+    name: "Natures",
+    technologies: ["html", "sass"],
+    view: [
+      {
+        name: "view project",
+        url: "https://fernando-uif.github.io/natures/",
+      },
+      {
+        name: "view code",
+        url: "https://github.com/Fernando-uif/natures",
+      },
+    ],
+    urlImage: "/assets/images/projects/natures.png",
+  },
+  {
     name: "Advice generator",
     technologies: ["html", "sass", "react"],
     view: [
@@ -110,12 +125,12 @@ export const projects: ProjectsProps[] = [
 
   {
     name: "Portafolio 1",
-    technologies: ["html", "css", "typeScript"], 
+    technologies: ["html", "css", "typeScript"],
     view: [
       {
         name: "view project",
         url: "https://fernando-uif.github.io/portafolio/",
-      }, 
+      },
     ],
     urlImage: "/assets/images/projects/portafolio-1.png",
   },

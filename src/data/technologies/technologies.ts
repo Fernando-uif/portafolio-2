@@ -48,4 +48,12 @@ export const technologies: TechnologiesProps[] = [
     name: "nextjs",
     experience: "1.1",
   },
+  {
+    name: "git",
+    experience: "3",
+  },
+  {
+    name: "github",
+    experience: "2",
+  },
 ];
