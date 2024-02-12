@@ -15,7 +15,7 @@ const Contact = () => {
       <div className={`${contactStyle["contact__wrapperInfo"]}`}>
         <ContactMeIcons />
 
-        <div className={`${downloadStyle["download"]}`}>
+        <div>
           <button className={`${downloadStyle["download__button"]}`}>
             <Link
               target="_blank"

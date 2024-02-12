@@ -6,6 +6,10 @@ import Technoligie from "./Technologie";
 const Technologies = () => {
   return (
     <>
+      <h2 className={`${technologiesStyle["technologie__title"]}`}>
+        technologies
+      </h2>
+
       <section className={`${technologiesStyle["technologie"]}`}>
         <Technoligie />
         <div className={`${technologiesStyle["technologie__wrapperOval"]}`}>

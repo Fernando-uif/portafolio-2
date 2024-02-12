@@ -3,6 +3,7 @@
 .technologie {
   position: relative;
   overflow: hidden;
+
   @media screen and (min-width: 766px) {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -16,6 +17,26 @@
     row-gap: 58px;
     max-width: 1440px;
     margin: 0 auto;
+  }
+  &__title {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 100% */
+    letter-spacing: -1.136px;
+    color: $light;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 32px;
+    margin-bottom: 40px;
+    text-transform: capitalize;
+    @media screen and (min-width: 766px) {
+      font-size: 72px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 72px; /* 100% */
+      letter-spacing: -2.045px;
+    }
   }
   &__wrapper {
     display: flex;

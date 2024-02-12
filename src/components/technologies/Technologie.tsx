@@ -70,11 +70,11 @@ const Technologie = () => {
               <span className={`${technologiesStyle["technologie__name"]}`}>
                 {tech.name}
               </span>
-              <span
+              {/* <span
                 className={`${technologiesStyle["technologie__experience"]}`}
               >
                 {tech.experience} Years Experience
-              </span>
+              </span> */}
             </div>
           </>
         ))
