@@ -140,7 +140,7 @@ export const projects: ProjectsProps[] = [
     view: [
       {
         name: "view project",
-        url: "https://fernando-uif.github.io/portafolio/",
+        url: "https://fernando-uif.github.io/Todos/",
       },
     ],
     urlImage: "/assets/images/projects/todo.png",
