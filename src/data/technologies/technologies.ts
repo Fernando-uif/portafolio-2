@@ -52,7 +52,7 @@ export const technologies: TechnologiesProps[] = [
     experience: "1.1",
   },
   {
-    name: "mapbox",
+    name: "mapbox Gl",
     experience: "1.1",
   },
   {
@@ -60,8 +60,8 @@ export const technologies: TechnologiesProps[] = [
     experience: "1.1",
   },
   {
-    name: "postman",
-    experience: "1.1",
+    name: "python",
+    experience: "1",
   },
   {
     name: "git",
@@ -74,5 +74,17 @@ export const technologies: TechnologiesProps[] = [
   {
     name: "bitbucket",
     experience: "2",
+  },
+  {
+    name: "postman",
+    experience: "1.1",
+  },
+  {
+    name: "jira",
+    experience: "1.1",
+  },
+  {
+    name: "click up",
+    experience: "1.1",
   },
 ];
