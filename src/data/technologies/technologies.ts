@@ -80,6 +80,14 @@ export const technologies: TechnologiesProps[] = [
     experience: "1.1",
   },
   {
+    name: "npm",
+    experience: "3",
+  },
+  {
+    name: "yarn",
+    experience: "1.1",
+  },
+  {
     name: "jira",
     experience: "1.1",
   },
