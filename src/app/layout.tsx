@@ -8,12 +8,13 @@ export const metadata: Metadata = {
   title: "Fernando Sosa T.",
   description: "Welcome to my portfolio",
   openGraph: {
-    images: "/assets/images/design/profile-image.png",
+    images: {
+      url: "/assets/images/design/profile-image.png",
+    },
   },
   twitter: {
     images: "/assets/images/design/profile-image.png",
   },
-
 };
 
 export default function RootLayout({

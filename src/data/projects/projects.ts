@@ -13,13 +13,20 @@ interface ViewProps {
 export const projects: ProjectsProps[] = [
   {
     name: "election maps 2024 n+ (televisa)",
-    technologies: ["next", "sass", "nodejs", "mapboxgl", "graphql/apollo"],
+    technologies: [
+      "react",
+      "next",
+      "sass",
+      "nodejs",
+      "mapboxgl",
+      "graphql/apollo",
+    ],
     view: [],
     urlImage: "/assets/images/projects/2024_elections_map_mapbox.png",
   },
   {
     name: "election maps 2023 n+ (televisa)",
-    technologies: ["next", "sass", "nodejs", "d3js", "graphql/apollo"],
+    technologies: ["react", "next", "sass", "nodejs", "d3js", "graphql/apollo"],
     view: [],
     urlImage: "/assets/images/projects/elections-2023.png",
   },
@@ -110,7 +117,7 @@ export const projects: ProjectsProps[] = [
     ],
     urlImage: "/assets/images/projects/countdown.png",
   },
-  
+
   {
     name: "Natures",
     technologies: ["html", "sass"],
@@ -141,7 +148,6 @@ export const projects: ProjectsProps[] = [
     ],
     urlImage: "/assets/images/projects/advice-generator.png",
   },
- 
 
   {
     name: "TODO",
