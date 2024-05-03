@@ -7,13 +7,14 @@ const space = Space_Grotesk({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Fernando Sosa T.",
   description: "Welcome to my portfolio",
+  
   openGraph: {
-    images: {
-      url: "/assets/images/design/profile-image.png",
-    },
+    images: ["/assets/images/design/profile-image.png"],
+    description:'Welcome to my portfolio'
   },
   twitter: {
-    images: "/assets/images/design/profile-image.png",
+    images: ["/assets/images/design/profile-image.png"],
+    description:'Welcome to my portfolio'
   },
 };
 

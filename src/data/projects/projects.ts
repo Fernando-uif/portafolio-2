@@ -12,7 +12,7 @@ interface ViewProps {
 }
 export const projects: ProjectsProps[] = [
   {
-    name: "election maps 2024 n+ (televisa)",
+    name: "Election results 2018 & 2024 n+ (televisa)",
     technologies: [
       "react",
       "next",
@@ -21,8 +21,49 @@ export const projects: ProjectsProps[] = [
       "mapboxgl",
       "graphql/apollo",
     ],
-    view: [],
-    urlImage: "/assets/images/projects/2024_elections_map_mapbox.png",
+    view: [
+      {
+        name: "view project",
+        url: "https://www.nmas.com.mx/mapas/mapa-presidencial-calle/",
+      },
+    ],
+    urlImage: "/assets/images/projects/results-elections-street-view.png",
+  },
+  {
+    name: "presidencial election maps 2024 n+ (televisa)",
+    technologies: [
+      "react",
+      "next",
+      "sass",
+      "nodejs",
+      "mapboxgl",
+      "graphql/apollo",
+    ],
+    view: [
+      {
+        name: "view project",
+        url: "https://www.nmas.com.mx/mapas/mapa-presidencial-estado/",
+      },
+    ],
+    urlImage: "/assets/images/projects/president-map-results.png",
+  },
+  {
+    name: "governors election maps 2024 n+ (televisa)",
+    technologies: [
+      "react",
+      "next",
+      "sass",
+      "nodejs",
+      "mapboxgl",
+      "graphql/apollo",
+    ],
+    view: [
+      {
+        name: "view project",
+        url: "https://www.nmas.com.mx/mapas/mapas-gobernadores/",
+      },
+    ],
+    urlImage: "/assets/images/projects/governors-map-results.png",
   },
   {
     name: "election maps 2023 n+ (televisa)",
