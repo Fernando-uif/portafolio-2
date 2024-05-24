@@ -30,7 +30,7 @@ export const projects: ProjectsProps[] = [
     urlImage: "/assets/images/projects/results-elections-street-view.png",
   },
   {
-    name: "presidencial election maps 2024 n+ (televisa)",
+    name: "presidential election maps 2024 n+ (televisa)",
     technologies: [
       "react",
       "next",
