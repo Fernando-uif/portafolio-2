@@ -45,7 +45,7 @@ export const projects: ProjectsProps[] = [
         url: "https://www.nmas.com.mx/mapas/mapa-presidencial-estado/",
       },
     ],
-    urlImage: "/assets/images/projects/president-map-results.png",
+    urlImage: "/assets/images/projects/presidential-map.gif",
   },
   {
     name: "governors election maps 2024 n+ (televisa)",
@@ -63,7 +63,7 @@ export const projects: ProjectsProps[] = [
         url: "https://www.nmas.com.mx/mapas/mapas-gobernadores/",
       },
     ],
-    urlImage: "/assets/images/projects/governors-map-results.png",
+    urlImage: "/assets/images/projects/governors-map.gif",
   },
   {
     name: "election maps 2023 n+ (televisa)",
