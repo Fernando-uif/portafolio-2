@@ -12,6 +12,7 @@ const ContactMe = ({ name, url, className }: LinkToProps) => {
       <Link
         className={`${contactMeStyles["contactMe__item"]}`}
         href={url || ""}
+        target="_blank"
       >
         {name}
       </Link>
