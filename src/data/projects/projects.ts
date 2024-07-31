@@ -72,6 +72,21 @@ export const projects: ProjectsProps[] = [
     urlImage: "/assets/images/projects/elections-2023.png",
   },
   {
+    name: "Teslo shop",
+    technologies: ["react", "Next", "Sass", "prisma", "postgresql", "zuztand"],
+    view: [
+      {
+        name: "view project",
+        url: "https://teslo-shop-a3avodv6y-fernandouifs-projects.vercel.app/",
+      },
+      {
+        name: "view code",
+        url: "https://github.com/Fernando-uif/teslo-shop",
+      },
+    ],
+    urlImage: "/assets/images/projects/teslo-shop.png",
+  },
+  {
     name: "space tourism",
     technologies: ["html", "sass", "react"],
     view: [
@@ -87,19 +102,19 @@ export const projects: ProjectsProps[] = [
     urlImage: "/assets/images/projects/space.png",
   },
   {
-    name: "Teslo shop",
-    technologies: ["react", "Next", "Sass", "prisma", "postgresql", "zuztand"],
+    name: "Product-list",
+    technologies: ["React", "sass", "zustand"],
     view: [
       {
         name: "view project",
-        url: "https://teslo-shop-a3avodv6y-fernandouifs-projects.vercel.app/",
+        url: "https://product-list-fer.netlify.app/",
       },
       {
         name: "view code",
-        url: "https://github.com/Fernando-uif/teslo-shop",
+        url: "https://github.com/Fernando-uif/product-list",
       },
     ],
-    urlImage: "/assets/images/projects/teslo-shop.png",
+    urlImage: "/assets/images/projects/desserts.png",
   },
   {
     name: "Portafolio 1",
@@ -174,48 +189,7 @@ export const projects: ProjectsProps[] = [
     ],
     urlImage: "/assets/images/projects/natures.png",
   },
-  {
-    name: "Advice generator",
-    technologies: ["html", "sass", "react"],
-    view: [
-      {
-        name: "view project",
-        url: "https://snazzy-mandazi-36f2f4.netlify.app/",
-      },
-      {
-        name: "view code",
-        url: "https://github.com/Fernando-uif/Advice-Generator",
-      },
-    ],
-    urlImage: "/assets/images/projects/advice-generator.png",
-  },
 
-  // {
-  //   name: "TODO",
-  //   technologies: ["html", "css", "JavaScript"],
-  //   view: [
-  //     {
-  //       name: "view project",
-  //       url: "https://fernando-uif.github.io/Todos/",
-  //     },
-  //   ],
-  //   urlImage: "/assets/images/projects/todo.png",
-  // },
-  // {
-  //   name: "Rick and Morty App",
-  //   technologies: ["html", "css", "sass", "react"],
-  //   view: [
-  //     {
-  //       name: "view project",
-  //       url: "https://subtle-buttercream-946b65.netlify.app/",
-  //     },
-  //     {
-  //       name: "view code",
-  //       url: "https://github.com/Fernando-uif/rick-morty",
-  //     },
-  //   ],
-  //   urlImage: "/assets/images/projects/ricknmorty.png",
-  // },
   {
     name: "bookmark",
     technologies: ["html", "css", "tailwind", "javascript", "github"],
