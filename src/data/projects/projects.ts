@@ -73,7 +73,7 @@ export const projects: ProjectsProps[] = [
   },
   {
     name: "Teslo shop",
-    technologies: ["react", "Next", "Sass", "prisma", "postgresql", "zuztand"],
+    technologies: ["react", "Next", "Sass", "prisma", "postgresql", "zustand"],
     view: [
       {
         name: "view project",
