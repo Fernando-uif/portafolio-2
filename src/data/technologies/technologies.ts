@@ -15,10 +15,10 @@ export const technologies: TechnologiesProps[] = [
     name: "SASS",
     experience: "2",
   },
-  // {
-  //   name: "tailwind",
-  //   experience: "",
-  // },
+  {
+    name: "tailwind",
+    experience: "",
+  },
   {
     name: "style components",
     experience: "1.1",

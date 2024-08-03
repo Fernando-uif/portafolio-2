@@ -117,6 +117,21 @@ export const projects: ProjectsProps[] = [
     urlImage: "/assets/images/projects/desserts.png",
   },
   {
+    name: "clock-app",
+    technologies: ["tailwind", "typescript", "react"],
+    view: [
+      {
+        name: "view project",
+        url: "https://clock-app-fer.netlify.app/",
+      },
+      {
+        name: "view code",
+        url: "https://github.com/Fernando-uif/clock-app",
+      },
+    ],
+    urlImage: "/assets/images/projects/clock-app.png",
+  },
+  {
     name: "Portafolio 1",
     technologies: ["html", "css", "typeScript"],
     view: [
@@ -190,21 +205,21 @@ export const projects: ProjectsProps[] = [
     urlImage: "/assets/images/projects/natures.png",
   },
 
-  {
-    name: "bookmark",
-    technologies: ["html", "css", "tailwind", "javascript", "github"],
-    view: [
-      {
-        name: "view project",
-        url: "https://fernando-uif.github.io/bookmark/",
-      },
-      {
-        name: "view code",
-        url: "https://github.com/Fernando-uif/bookmark",
-      },
-    ],
-    urlImage: "/assets/images/projects/bookmark.png",
-  },
+  // {
+  //   name: "bookmark",
+  //   technologies: ["html", "css", "tailwind", "javascript", "github"],
+  //   view: [
+  //     {
+  //       name: "view project",
+  //       url: "https://fernando-uif.github.io/bookmark/",
+  //     },
+  //     {
+  //       name: "view code",
+  //       url: "https://github.com/Fernando-uif/bookmark",
+  //     },
+  //   ],
+  //   urlImage: "/assets/images/projects/bookmark.png",
+  // },
   {
     name: "credit Card",
     technologies: ["html", "sass", "javascript"],
