@@ -132,6 +132,21 @@ export const projects: ProjectsProps[] = [
     urlImage: "/assets/images/projects/clock-app.png",
   },
   {
+    name: "todo app",
+    technologies: ["react", "zustand", "sass"],
+    urlImage: "/assets/images/projects/to-do.png",
+    view: [
+      {
+        name: "view project",
+        url: "https://verdant-faun-928ab4.netlify.app/",
+      },
+      {
+        name: "view code",
+        url: "https://github.com/Fernando-uif/todo-app",
+      },
+    ],
+  },
+  {
     name: "Portafolio 1",
     technologies: ["html", "css", "typeScript"],
     view: [
@@ -250,19 +265,19 @@ export const projects: ProjectsProps[] = [
     ],
     urlImage: "/assets/images/projects/commerce.png",
   },
-  {
-    name: "loop-studio",
-    technologies: ["html", "sass", "tailwind"],
-    view: [
-      {
-        name: "view project",
-        url: "https://fernando-uif.github.io/loop-studio/",
-      },
-      {
-        name: "view code",
-        url: "https://github.com/Fernando-uif/loop-studio",
-      },
-    ],
-    urlImage: "/assets/images/projects/loopstudio.png",
-  },
+  // {
+  //   name: "loop-studio",
+  //   technologies: ["html", "sass", "tailwind"],
+  //   view: [
+  //     {
+  //       name: "view project",
+  //       url: "https://fernando-uif.github.io/loop-studio/",
+  //     },
+  //     {
+  //       name: "view code",
+  //       url: "https://github.com/Fernando-uif/loop-studio",
+  //     },
+  //   ],
+  //   urlImage: "/assets/images/projects/loopstudio.png",
+  // },
 ];
