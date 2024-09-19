@@ -35,6 +35,7 @@ const SingleProject = ({
             width={800}
             height={600}
             className={`${singleProjectStyle["singleProject__image"]}`}
+            quality={75}
             sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw"
           />
         </div>
