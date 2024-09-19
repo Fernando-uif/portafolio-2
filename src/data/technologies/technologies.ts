@@ -39,10 +39,10 @@ export const technologies: TechnologiesProps[] = [
     name: "Typescript",
     experience: "2.5",
   },
-  // {
-  //   name: "jest",
-  //   experience: "",
-  // },
+  {
+    name: "jest",
+    experience: "",
+  },
   // {
   //   name: "testing library",
   //   experience: "",
