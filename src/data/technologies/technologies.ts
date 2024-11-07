@@ -72,6 +72,10 @@ export const technologies: TechnologiesProps[] = [
     experience: "1.1",
   },
   {
+    name: "highcharts",
+    experience: "1.1",
+  },
+  {
     name: "d3js",
     experience: "1.1",
   },

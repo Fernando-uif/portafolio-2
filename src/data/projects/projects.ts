@@ -20,6 +20,25 @@ export const projects: ProjectsProps[] = [
       "nodejs",
       "mapboxgl",
       "graphql/apollo",
+      'highcharts',
+    ],
+    view: [
+      {
+        name: "view project",
+        url: "https://www.nmas.com.mx/mapas/voto-latino-estados-unidos-elecciones-2024/",
+      },
+    ],
+    urlImage: "/assets/images/projects/latin-vote.png",
+  },
+  {
+    name: "Election results 2018 & 2024 n+ (televisa)",
+    technologies: [
+      "react",
+      "next",
+      "sass",
+      "nodejs",
+      "mapboxgl",
+      "graphql/apollo",
     ],
     view: [
       {
