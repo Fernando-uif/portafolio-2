@@ -12,7 +12,7 @@ interface ViewProps {
 }
 export const projects: ProjectsProps[] = [
   {
-    name: "Election results 2018 & 2024 n+ (televisa)",
+    name: "Latino vote n+ (televisa)",
     technologies: [
       "react",
       "next",
