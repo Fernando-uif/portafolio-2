@@ -28,7 +28,7 @@ export const projects: ProjectsProps[] = [
         url: "https://www.nmas.com.mx/mapas/voto-latino-estados-unidos-elecciones-2024/",
       },
     ],
-    urlImage: "/assets/images/projects/latin-vote.png",
+    urlImage: "/assets/images/projects/webp/latin-vote.webp",
   },
   {
     name: "Election results 2018 & 2024 n+ (televisa)",
@@ -46,7 +46,7 @@ export const projects: ProjectsProps[] = [
         url: "https://www.nmas.com.mx/mapas/mapa-presidencial-calle/",
       },
     ],
-    urlImage: "/assets/images/projects/results-elections-street-view.png",
+    urlImage: "/assets/images/projects/webp/results-elections-street-view.webp",
   },
   {
     name: "presidential election maps 2024 n+ (televisa)",
@@ -64,7 +64,7 @@ export const projects: ProjectsProps[] = [
         url: "https://www.nmas.com.mx/mapas/mapa-presidencial-estado/",
       },
     ],
-    urlImage: "/assets/images/projects/presidential-map.gif",
+    urlImage: "/assets/images/projects/webp/presidential-map.gif",
   },
   {
     name: "governors election maps 2024 n+ (televisa)",
@@ -82,13 +82,13 @@ export const projects: ProjectsProps[] = [
         url: "https://www.nmas.com.mx/mapas/mapas-gobernadores/",
       },
     ],
-    urlImage: "/assets/images/projects/governors-map.gif",
+    urlImage: "/assets/images/projects/webp/governors-map.gif",
   },
   {
     name: "election maps 2023 n+ (televisa)",
     technologies: ["react", "next", "sass", "nodejs", "d3js", "graphql/apollo"],
     view: [],
-    urlImage: "/assets/images/projects/elections-2023.png",
+    urlImage: "/assets/images/projects/webp/elections-2023.webp",
   },
   {
     name: "Teslo shop",
@@ -103,7 +103,7 @@ export const projects: ProjectsProps[] = [
         url: "https://github.com/Fernando-uif/teslo-shop",
       },
     ],
-    urlImage: "/assets/images/projects/teslo-shop.png",
+    urlImage: "/assets/images/projects/webp/teslo-shop.webp",
   },
   {
     name: "space tourism",
@@ -118,7 +118,7 @@ export const projects: ProjectsProps[] = [
         url: "https://github.com/Fernando-uif/space-tourism",
       },
     ],
-    urlImage: "/assets/images/projects/space.png",
+    urlImage: "/assets/images/projects/webp/space.webp",
   },
   {
     name: "Product-list",
@@ -133,7 +133,7 @@ export const projects: ProjectsProps[] = [
         url: "https://github.com/Fernando-uif/product-list",
       },
     ],
-    urlImage: "/assets/images/projects/desserts.png",
+    urlImage: "/assets/images/projects/webp/desserts.webp",
   },
   {
     name: "clock-app",
@@ -148,12 +148,12 @@ export const projects: ProjectsProps[] = [
         url: "https://github.com/Fernando-uif/clock-app",
       },
     ],
-    urlImage: "/assets/images/projects/clock-app.png",
+    urlImage: "/assets/images/projects/webp/clock-app.webp",
   },
   {
     name: "todo app",
     technologies: ["react", "zustand", "sass"],
-    urlImage: "/assets/images/projects/to-do.png",
+    urlImage: "/assets/images/projects/webp/to-do.webp",
     view: [
       {
         name: "view project",
@@ -174,7 +174,7 @@ export const projects: ProjectsProps[] = [
         url: "https://fernando-uif.github.io/portafolio/",
       },
     ],
-    urlImage: "/assets/images/projects/portafolio-1.png",
+    urlImage: "/assets/images/projects/webp/portafolio-1.webp",
   },
   {
     name: "sunnyside",
@@ -189,7 +189,7 @@ export const projects: ProjectsProps[] = [
         url: "https://github.com/Fernando-uif/Sunnyside-agency-landing-page",
       },
     ],
-    urlImage: "/assets/images/projects/sunnyside.png",
+    urlImage: "/assets/images/projects/webp/sunnyside.webp",
   },
   {
     name: "Easybank",
@@ -204,7 +204,7 @@ export const projects: ProjectsProps[] = [
         url: "https://github.com/Fernando-uif/EasyBank",
       },
     ],
-    urlImage: "/assets/images/projects/easybank.png",
+    urlImage: "/assets/images/projects/webp/easybank.webp",
   },
 
   {
@@ -220,7 +220,7 @@ export const projects: ProjectsProps[] = [
         url: "https://github.com/Fernando-uif/countdown",
       },
     ],
-    urlImage: "/assets/images/projects/countdown.png",
+    urlImage: "/assets/images/projects/webp/countdown.webp",
   },
 
   {
@@ -236,7 +236,7 @@ export const projects: ProjectsProps[] = [
         url: "https://github.com/Fernando-uif/natures",
       },
     ],
-    urlImage: "/assets/images/projects/natures.png",
+    urlImage: "/assets/images/projects/webp/natures.webp",
   },
 
   // {
@@ -252,7 +252,7 @@ export const projects: ProjectsProps[] = [
   //       url: "https://github.com/Fernando-uif/bookmark",
   //     },
   //   ],
-  //   urlImage: "/assets/images/projects/bookmark.png",
+  //   urlImage: "/assets/images/projects/webp/bookmark.webp",
   // },
   {
     name: "credit Card",
@@ -267,7 +267,7 @@ export const projects: ProjectsProps[] = [
         url: "https://github.com/Fernando-uif/interactive-card",
       },
     ],
-    urlImage: "/assets/images/projects/creditCard.png",
+    urlImage: "/assets/images/projects/webp/creditCard.webp",
   },
   {
     name: "E-commerce",
@@ -282,7 +282,7 @@ export const projects: ProjectsProps[] = [
         url: "https://github.com/Fernando-uif/ecommerce-product",
       },
     ],
-    urlImage: "/assets/images/projects/commerce.png",
+    urlImage: "/assets/images/projects/webp/commerce.webp",
   },
   // {
   //   name: "loop-studio",
@@ -297,6 +297,6 @@ export const projects: ProjectsProps[] = [
   //       url: "https://github.com/Fernando-uif/loop-studio",
   //     },
   //   ],
-  //   urlImage: "/assets/images/projects/loopstudio.png",
+  //   urlImage: "/assets/images/projects/webp/loopstudio.webp",
   // },
 ];

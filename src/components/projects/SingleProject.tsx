@@ -10,6 +10,7 @@ const SingleProject = ({
   urlImage,
   view,
 }: ProjectsProps) => {
+  console.log(urlImage,'url image');
   return (
     <>
       <figure className={`${singleProjectStyle["singleProject"]}`}>
