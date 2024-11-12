@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const Contact = () => {
   return (
-    <section className={`${contactStyle["contact"]}`}>
+    <footer className={`${contactStyle["contact"]}`}>
       <h2 className={`${contactStyle["contact__title"]}`}>Contact</h2>
       <p className={`${contactStyle["contact__description"]}`}>
         If you are interested in mi job, let&apos;s keep in touch.
@@ -28,7 +28,7 @@ const Contact = () => {
           </button>
         </div>
       </div>
-    </section>
+    </footer>
   );
 };
 
