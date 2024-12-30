@@ -10,8 +10,7 @@ const ContactMeIcons = () => {
         className={`${contactIconStyle["contactIcons--item"]}`}
       >
         <Icon
-          name="phone"
-          className={`${contactIconStyle["contactIcons__icon-phone"]}`}
+          name="whatsapp"
         />
       </Link>
       <Link

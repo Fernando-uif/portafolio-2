@@ -1,9 +1,10 @@
-import aboutStyle from "@/sass/about/about.module.scss";
-import Icon from "../Icons/Icon";
 import Image from "next/image";
-import Link from "next/link";
+
+import Icon from "../Icons/Icon";
 import ContactMe from "../contact/ContactMe";
 import ContactMeIcons from "../contact/ContactMeIcons";
+
+import aboutStyle from "@/sass/about/about.module.scss";
 
 const About = () => {
   return (
@@ -26,7 +27,8 @@ const About = () => {
             height={242}
             width={174}
             className={`${aboutStyle["about__profileImage"]}`}
-            quality={100}
+            quality={75}
+            priority
           />
           <svg
             className={`${aboutStyle["about__svg_circle"]}`}

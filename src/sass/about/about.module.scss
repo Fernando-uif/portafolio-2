@@ -69,7 +69,8 @@
     }
   }
   &__profileImage {
-    height: 300px;
+    height: auto;
+    width: auto;
     object-fit: cover;
     @media screen and (min-width: 766px) {
       aspect-ratio: 9/16;
