@@ -16,6 +16,7 @@ export const metadata: Metadata = {
     images: ["/assets/images/design/profile-image.png"],
     description:'Welcome to my portfolio'
   },
+
 };
 
 export default function RootLayout({
@@ -25,6 +26,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <meta name="theme-color" content="#141514"/>
       <body className={space.className}>{children}</body>
     </html>
   );
