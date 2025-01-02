@@ -20,7 +20,7 @@ export const projects: ProjectsProps[] = [
       "nodejs",
       "mapboxgl",
       "graphql/apollo",
-      'highcharts',
+      "highcharts",
     ],
     view: [
       {
@@ -89,6 +89,17 @@ export const projects: ProjectsProps[] = [
     technologies: ["react", "next", "sass", "nodejs", "d3js", "graphql/apollo"],
     view: [],
     urlImage: "/assets/images/projects/webp/elections-2023.webp",
+  },
+  {
+    name: "movie app",
+    technologies: ["react", "sass", "zustand"],
+    urlImage: "/assets/images/projects/webp/movie-app.webp",
+    view: [
+      {
+        name: "view project",
+        url: "https://movie-page-auth.netlify.app/",
+      },
+    ],
   },
   {
     name: "Teslo shop",
