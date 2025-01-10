@@ -16,6 +16,10 @@ export const technologies: TechnologiesProps[] = [
     experience: "2",
   },
   {
+    name: "boostrap",
+    experience: "",
+  },
+  {
     name: "tailwind",
     experience: "",
   },
