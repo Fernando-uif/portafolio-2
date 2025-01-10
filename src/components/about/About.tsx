@@ -65,7 +65,7 @@ const About = () => {
             technologies that allow me to create interesting elements
           </p>
           <div className={`${aboutStyle["about__wrapperAboutMe"]}`}>
-            <ContactMe name="contact me" url="https://wa.me/5523923346" />
+            <ContactMe name="contact me" url="https://www.linkedin.com/in/fernando-sosa-fst/" />
           </div>
         </div>
       </div>
