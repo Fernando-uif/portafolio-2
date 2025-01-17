@@ -21,6 +21,7 @@ export const projects: ProjectsProps[] = [
       "mapboxgl",
       "graphql/apollo",
       "highcharts",
+      "typescript",
     ],
     view: [
       {
@@ -39,6 +40,7 @@ export const projects: ProjectsProps[] = [
       "nodejs",
       "mapboxgl",
       "graphql/apollo",
+      "typescript",
     ],
     view: [
       {
@@ -57,6 +59,7 @@ export const projects: ProjectsProps[] = [
       "nodejs",
       "mapboxgl",
       "graphql/apollo",
+      "typescript",
     ],
     view: [
       {
@@ -75,6 +78,7 @@ export const projects: ProjectsProps[] = [
       "nodejs",
       "mapboxgl",
       "graphql/apollo",
+      'typescript',
     ],
     view: [
       {
@@ -86,13 +90,13 @@ export const projects: ProjectsProps[] = [
   },
   {
     name: "election maps 2023 n+ (televisa)",
-    technologies: ["react", "next", "sass", "nodejs", "d3js", "graphql/apollo"],
+    technologies: ["react", "next", "sass", "nodejs", "d3js", "graphql/apollo",'typescript'],
     view: [],
     urlImage: "/assets/images/projects/webp/elections-2023.webp",
   },
   {
     name: "movie app",
-    technologies: ["react", "sass", "zustand"],
+    technologies: ["react", "sass", "zustand",'typescript'],
     urlImage: "/assets/images/projects/webp/movie-app.webp",
     view: [
       {
@@ -103,7 +107,15 @@ export const projects: ProjectsProps[] = [
   },
   {
     name: "Teslo shop",
-    technologies: ["react", "Next", "Sass", "prisma", "postgresql", "zustand"],
+    technologies: [
+      "react",
+      "Next",
+      "Sass",
+      "prisma",
+      "postgresql",
+      "zustand",
+      "typescript",
+    ],
     view: [
       {
         name: "view project",
@@ -133,7 +145,7 @@ export const projects: ProjectsProps[] = [
   },
   {
     name: "Product-list",
-    technologies: ["React", "sass", "zustand"],
+    technologies: ["React", "sass", "zustand", "typescript"],
     view: [
       {
         name: "view project",
@@ -163,7 +175,7 @@ export const projects: ProjectsProps[] = [
   },
   {
     name: "todo app",
-    technologies: ["react", "zustand", "sass"],
+    technologies: ["react", "zustand", "sass", "typescript"],
     urlImage: "/assets/images/projects/webp/to-do.webp",
     view: [
       {
