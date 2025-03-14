@@ -12,12 +12,30 @@ interface ViewProps {
 }
 export const projects: ProjectsProps[] = [
   {
-    name: "Latino vote n+ (televisa)",
+    name: "8M Data N+ (Televisa)",
     technologies: [
       "react",
       "next",
       "sass",
       "nodejs",
+      "mapboxgl",
+      "graphql/apollo",
+      "typescript",
+    ],
+    urlImage: "/assets/images/projects/webp/8m.webp",
+    view: [
+      {
+        name: "view project",
+        url: "https://www.nmas.com.mx/mapas/8m-dia-de-la-mujer-mexico-datos/",
+      },
+    ],
+  },
+  {
+    name: "Latino vote n+ (televisa)",
+    technologies: [
+      "react",
+      "next",
+      "sass",
       "mapboxgl",
       "graphql/apollo",
       "highcharts",
@@ -78,7 +96,7 @@ export const projects: ProjectsProps[] = [
       "nodejs",
       "mapboxgl",
       "graphql/apollo",
-      'typescript',
+      "typescript",
     ],
     view: [
       {
@@ -90,13 +108,21 @@ export const projects: ProjectsProps[] = [
   },
   {
     name: "election maps 2023 n+ (televisa)",
-    technologies: ["react", "next", "sass", "nodejs", "d3js", "graphql/apollo",'typescript'],
+    technologies: [
+      "react",
+      "next",
+      "sass",
+      "nodejs",
+      "d3js",
+      "graphql/apollo",
+      "typescript",
+    ],
     view: [],
     urlImage: "/assets/images/projects/webp/elections-2023.webp",
   },
   {
     name: "movie app",
-    technologies: ["react", "sass", "zustand",'typescript'],
+    technologies: ["react", "sass", "zustand", "typescript"],
     urlImage: "/assets/images/projects/webp/movie-app.webp",
     view: [
       {
