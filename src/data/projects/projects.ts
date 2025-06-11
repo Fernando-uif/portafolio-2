@@ -12,6 +12,58 @@ interface ViewProps {
 }
 export const projects: ProjectsProps[] = [
   {
+    name: " Illegal dumping sites in Mexico City (Televisa)",
+    technologies: [
+      "react",
+      "next",
+      "sass",
+      "nodejs",
+      "mapbox studio",
+      "mapboxgl",
+      "typescript",
+    ],
+    urlImage:
+      "https://res.cloudinary.com/djophy5vk/image/upload/v1749604327/dumps_special_bvmmsj.webp",
+    view: [
+      {
+        name: "view project",
+        url: "https://www.nmas.com.mx/mapas/mapa-tiraderos-clandestinos-cdmx/",
+      },
+    ],
+  },
+  {
+    name: "Illegal dumping sites in Mexico City (Televisa)",
+    technologies: [
+      "react",
+      "next",
+      "sass",
+      "nodejs",
+      "mapbox studio",
+      "mapboxgl",
+      "typescript",
+    ],
+    urlImage:
+      "https://res.cloudinary.com/djophy5vk/image/upload/v1749604327/dumps_map_nxrwi1.webp",
+    view: [
+      {
+        name: "view project",
+        url: "https://www.nmas.com.mx/mapas/mapa-tiraderos-clandestinos-cdmx/",
+      },
+    ],
+  },
+  {
+    name: "Judicial Branch Election Results by State (Televisa)",
+    technologies: ["react", "next", "sass", "nodejs", "mapboxgl", "typescript"],
+    urlImage:
+      "https://res.cloudinary.com/djophy5vk/image/upload/v1749604327/judges_v0w3mm.webp",
+    view: [
+      {
+        name: "view project",
+        url: "https://www.nmas.com.mx/mapas/resultados-elecciones-poder-judicial-2025-estado-ine-scjn/",
+      },
+    ],
+  },
+  {
     name: "8M Data N+ (Televisa)",
     technologies: [
       "react",
@@ -22,7 +74,8 @@ export const projects: ProjectsProps[] = [
       "graphql/apollo",
       "typescript",
     ],
-    urlImage: "/assets/images/projects/webp/8m.webp",
+    urlImage:
+      "https://res.cloudinary.com/djophy5vk/image/upload/v1749604365/8m_qruh8w.webp",
     view: [
       {
         name: "view project",
@@ -47,7 +100,8 @@ export const projects: ProjectsProps[] = [
         url: "https://www.nmas.com.mx/mapas/voto-latino-estados-unidos-elecciones-2024/",
       },
     ],
-    urlImage: "/assets/images/projects/webp/latin-vote.webp",
+    urlImage:
+      "https://res.cloudinary.com/djophy5vk/image/upload/v1749604368/latin-vote_rl6jws.webp",
   },
   {
     name: "Election results 2018 & 2024 n+ (televisa)",
@@ -66,7 +120,8 @@ export const projects: ProjectsProps[] = [
         url: "https://www.nmas.com.mx/mapas/mapa-presidencial-calle/",
       },
     ],
-    urlImage: "/assets/images/projects/webp/results-elections-street-view.webp",
+    urlImage:
+      "https://res.cloudinary.com/djophy5vk/image/upload/v1749604369/results-elections-street-view_cf7rxv.webp",
   },
   {
     name: "presidential election maps 2024 n+ (televisa)",
@@ -85,7 +140,8 @@ export const projects: ProjectsProps[] = [
         url: "https://www.nmas.com.mx/mapas/mapa-presidencial-estado/",
       },
     ],
-    urlImage: "/assets/images/projects/webp/presidential-map.gif",
+    urlImage:
+      "https://res.cloudinary.com/djophy5vk/image/upload/v1749604375/presidential-map_sdpgr2.gif",
   },
   {
     name: "governors election maps 2024 n+ (televisa)",
@@ -104,7 +160,8 @@ export const projects: ProjectsProps[] = [
         url: "https://www.nmas.com.mx/mapas/mapas-gobernadores/",
       },
     ],
-    urlImage: "/assets/images/projects/webp/governors-map.gif",
+    urlImage:
+      "https://res.cloudinary.com/djophy5vk/image/upload/v1749604371/governors-map_zaercj.gif",
   },
   {
     name: "election maps 2023 n+ (televisa)",
@@ -118,12 +175,14 @@ export const projects: ProjectsProps[] = [
       "typescript",
     ],
     view: [],
-    urlImage: "/assets/images/projects/webp/elections-2023.webp",
+    urlImage:
+      "https://res.cloudinary.com/djophy5vk/image/upload/v1749604366/elections-2023_lc53wh.webp",
   },
   {
     name: "movie app",
     technologies: ["react", "sass", "zustand", "typescript"],
-    urlImage: "/assets/images/projects/webp/movie-app.webp",
+    urlImage:
+      "https://res.cloudinary.com/djophy5vk/image/upload/v1749604370/movie-app_wjpugx.webp",
     view: [
       {
         name: "view project",
@@ -152,7 +211,8 @@ export const projects: ProjectsProps[] = [
         url: "https://github.com/Fernando-uif/teslo-shop",
       },
     ],
-    urlImage: "/assets/images/projects/webp/teslo-shop.webp",
+    urlImage:
+      "https://res.cloudinary.com/djophy5vk/image/upload/v1749604368/teslo-shop_rmemq0.webp",
   },
   {
     name: "space tourism",
@@ -167,7 +227,8 @@ export const projects: ProjectsProps[] = [
         url: "https://github.com/Fernando-uif/space-tourism",
       },
     ],
-    urlImage: "/assets/images/projects/webp/space.webp",
+    urlImage:
+      "https://res.cloudinary.com/djophy5vk/image/upload/v1749604369/space_z3dwjj.webp",
   },
   {
     name: "Product-list",
@@ -182,7 +243,8 @@ export const projects: ProjectsProps[] = [
         url: "https://github.com/Fernando-uif/product-list",
       },
     ],
-    urlImage: "/assets/images/projects/webp/desserts.webp",
+    urlImage:
+      "https://res.cloudinary.com/djophy5vk/image/upload/v1749604367/desserts_jzwezw.webp",
   },
   {
     name: "clock-app",
@@ -197,12 +259,14 @@ export const projects: ProjectsProps[] = [
         url: "https://github.com/Fernando-uif/clock-app",
       },
     ],
-    urlImage: "/assets/images/projects/webp/clock-app.webp",
+    urlImage:
+      "https://res.cloudinary.com/djophy5vk/image/upload/v1749604366/clock-app_ec5hnh.webp",
   },
   {
     name: "todo app",
     technologies: ["react", "zustand", "sass", "typescript"],
-    urlImage: "/assets/images/projects/webp/to-do.webp",
+    urlImage:
+      "https://res.cloudinary.com/djophy5vk/image/upload/v1749604368/to-do_j3e1if.webp",
     view: [
       {
         name: "view project",
@@ -223,7 +287,8 @@ export const projects: ProjectsProps[] = [
         url: "https://fernando-uif.github.io/portafolio/",
       },
     ],
-    urlImage: "/assets/images/projects/webp/portafolio-1.webp",
+    urlImage:
+      "https://res.cloudinary.com/djophy5vk/image/upload/v1749604369/portafolio-1_wwfi1t.webp",
   },
   {
     name: "sunnyside",
@@ -238,7 +303,8 @@ export const projects: ProjectsProps[] = [
         url: "https://github.com/Fernando-uif/Sunnyside-agency-landing-page",
       },
     ],
-    urlImage: "/assets/images/projects/webp/sunnyside.webp",
+    urlImage:
+      "https://res.cloudinary.com/djophy5vk/image/upload/v1749604367/sunnyside_jjilj3.webp",
   },
   {
     name: "Easybank",
@@ -253,7 +319,8 @@ export const projects: ProjectsProps[] = [
         url: "https://github.com/Fernando-uif/EasyBank",
       },
     ],
-    urlImage: "/assets/images/projects/webp/easybank.webp",
+    urlImage:
+      "https://res.cloudinary.com/djophy5vk/image/upload/v1749604366/easybank_gdn6gz.webp",
   },
 
   {
@@ -269,7 +336,8 @@ export const projects: ProjectsProps[] = [
         url: "https://github.com/Fernando-uif/countdown",
       },
     ],
-    urlImage: "/assets/images/projects/webp/countdown.webp",
+    urlImage:
+      "https://res.cloudinary.com/djophy5vk/image/upload/v1749604366/countdown_bfwjdh.webp",
   },
 
   {
@@ -285,7 +353,8 @@ export const projects: ProjectsProps[] = [
         url: "https://github.com/Fernando-uif/natures",
       },
     ],
-    urlImage: "/assets/images/projects/webp/natures.webp",
+    urlImage:
+      "https://res.cloudinary.com/djophy5vk/image/upload/v1749604367/natures_vhsswf.webp",
   },
 
   // {
@@ -301,7 +370,7 @@ export const projects: ProjectsProps[] = [
   //       url: "https://github.com/Fernando-uif/bookmark",
   //     },
   //   ],
-  //   urlImage: "/assets/images/projects/webp/bookmark.webp",
+  //   urlImage: "https://res.cloudinary.com/djophy5vk/image/upload/v1749604365/bookmark_tfw7m7.webp",
   // },
   {
     name: "credit Card",
@@ -316,7 +385,8 @@ export const projects: ProjectsProps[] = [
         url: "https://github.com/Fernando-uif/interactive-card",
       },
     ],
-    urlImage: "/assets/images/projects/webp/creditCard.webp",
+    urlImage:
+      "https://res.cloudinary.com/djophy5vk/image/upload/v1749604366/creditCard_gjmbos.webp",
   },
   {
     name: "E-commerce",
@@ -331,7 +401,8 @@ export const projects: ProjectsProps[] = [
         url: "https://github.com/Fernando-uif/ecommerce-product",
       },
     ],
-    urlImage: "/assets/images/projects/webp/commerce.webp",
+    urlImage:
+      "https://res.cloudinary.com/djophy5vk/image/upload/v1749604366/creditCard_gjmbos.webp",
   },
   // {
   //   name: "loop-studio",
@@ -346,6 +417,6 @@ export const projects: ProjectsProps[] = [
   //       url: "https://github.com/Fernando-uif/loop-studio",
   //     },
   //   ],
-  //   urlImage: "/assets/images/projects/webp/loopstudio.webp",
+  //   urlImage: "https://res.cloudinary.com/djophy5vk/image/upload/v1749604368/loopstudio_qer2bs.webp",
   // },
 ];

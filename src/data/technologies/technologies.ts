@@ -47,10 +47,6 @@ export const technologies: TechnologiesProps[] = [
     name: "jest",
     experience: "",
   },
-  // {
-  //   name: "testing library",
-  //   experience: "",
-  // },
   {
     name: "React",
     experience: "1.5",
@@ -70,6 +66,10 @@ export const technologies: TechnologiesProps[] = [
   {
     name: "nextjs",
     experience: "1.1",
+  },
+  {
+    name: "mapbox studio",
+    experience: "1",
   },
   {
     name: "mapbox Gl",
