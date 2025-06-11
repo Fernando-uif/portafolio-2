@@ -27,7 +27,7 @@ export const projects: ProjectsProps[] = [
     view: [
       {
         name: "view project",
-        url: "https://www.nmas.com.mx/mapas/mapa-tiraderos-clandestinos-cdmx/",
+        url: "https://www.nmas.com.mx/especiales/mapa-tiraderos-clandestinos-cdmx/",
       },
     ],
   },

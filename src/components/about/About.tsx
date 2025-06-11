@@ -22,12 +22,13 @@ const About = () => {
       <div className={`${aboutStyle["about__wrapperAboutGreetings"]}`}>
         <figure className={`${aboutStyle["about__wrapperImage"]}`}>
           <Image
-            src={"/assets/images/design/profile-image.png"}
+            src={
+              "https://res.cloudinary.com/djophy5vk/image/upload/v1749674986/profile-image_zpox9j.png"
+            }
             alt="fernando sosa"
             height={242}
             width={174}
             className={`${aboutStyle["about__profileImage"]}`}
-            quality={75}
             priority
           />
           <svg
@@ -65,7 +66,10 @@ const About = () => {
             technologies that allow me to create interesting elements
           </p>
           <div className={`${aboutStyle["about__wrapperAboutMe"]}`}>
-            <ContactMe name="contact me" url="https://www.linkedin.com/in/fernando-sosa-fst/" />
+            <ContactMe
+              name="contact me"
+              url="https://www.linkedin.com/in/fernando-sosa-fst/"
+            />
           </div>
         </div>
       </div>
