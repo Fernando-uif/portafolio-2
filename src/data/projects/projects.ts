@@ -402,7 +402,7 @@ export const projects: ProjectsProps[] = [
       },
     ],
     urlImage:
-      "https://res.cloudinary.com/djophy5vk/image/upload/v1749604366/creditCard_gjmbos.webp",
+      "https://res.cloudinary.com/djophy5vk/image/upload/v1749604365/commerce_gk0wb3.webp",
   },
   // {
   //   name: "loop-studio",

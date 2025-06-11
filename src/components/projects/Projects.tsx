@@ -37,6 +37,7 @@ const Projects = () => {
             scrollTrigger: {
               trigger: project,
               start: "top center",
+              markers: true,
             },
           }
         );
@@ -48,7 +49,10 @@ const Projects = () => {
     <section className={`${projectStyles["project"]}`}>
       <div className={`${projectStyles["project__wrapperTitle"]}`}>
         <h2 className={`${projectStyles["project__title"]}`}>Projects</h2>
-        <ContactMe name="contact me" url="https://www.linkedin.com/in/fernando-sosa-fst/" />
+        <ContactMe
+          name="contact me"
+          url="https://www.linkedin.com/in/fernando-sosa-fst/"
+        />
       </div>
       <div
         ref={container}
