@@ -37,7 +37,6 @@ const Projects = () => {
             scrollTrigger: {
               trigger: project,
               start: "top center",
-              markers: true,
             },
           }
         );
