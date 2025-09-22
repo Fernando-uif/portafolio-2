@@ -80,7 +80,7 @@ export const technologies: TechnologiesProps[] = [
     experience: "1.1",
   },
   {
-    name: "gsap (Scroll Trigger)",
+    name: "gsap",
     experience: "1",
   },
   {
