@@ -9,21 +9,21 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@gsap/react": "^2.1.1",
-    "gsap": "^3.12.5",
+    "@gsap/react": "2.1.1",
+    "gsap": "3.12.5",
     "next": "14.0.4",
-    "react": "^18",
-    "react-dom": "^18",
-    "sharp": "^0.33.2"
+    "react": "18",
+    "react-dom": "18",
+    "sharp": "0.33.2"
   },
   "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "eslint": "^8",
+    "@types/node": "20",
+    "@types/react": "18",
+    "@types/react-dom": "18",
+    "eslint": "8",
     "eslint-config-next": "14.0.4",
-    "sass": "^1.69.7",
-    "typescript": "^5"
+    "sass": "1.69.7",
+    "typescript": "5"
   },
   "engines": {
     "node": ">=22.0.0",

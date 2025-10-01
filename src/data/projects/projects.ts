@@ -12,7 +12,27 @@ interface ViewProps {
 }
 export const projects: ProjectsProps[] = [
   {
-    name: " Illegal dumping sites in Mexico City (Televisa)",
+    name: "Los pasantes que sostienen el sistema de salud en méxico ( Televisa N+ )",
+    technologies: [
+      "react",
+      "gsap",
+      "next",
+      "sass",
+      "nodejs",
+      "mapboxgl",
+      "typescript",
+    ],
+    urlImage:
+      "https://res.cloudinary.com/djophy5vk/image/upload/v1759279773/Screenshot-2025-09-30-at-18.47.11_eriltm.webp",
+    view: [
+      {
+        name: "view project",
+        url: "https://www.nmas.com.mx/especiales/pasantes-medicina-los-que-sostienen-salud-rural-mexico-sin-insumos-inseguros/",
+      },
+    ],
+  },
+  {
+    name: "Illegal dumping sites in Mexico City ( Televisa N+ )",
     technologies: [
       "react",
       "next",
@@ -32,7 +52,7 @@ export const projects: ProjectsProps[] = [
     ],
   },
   {
-    name: "Illegal dumping sites in Mexico City (Televisa)",
+    name: "Illegal dumping sites in Mexico City ( Televisa N+ )",
     technologies: [
       "react",
       "next",
@@ -52,7 +72,7 @@ export const projects: ProjectsProps[] = [
     ],
   },
   {
-    name: "Judicial Branch Election Results by State (Televisa)",
+    name: "Judicial Branch Election Results by State ( Televisa N+ )",
     technologies: ["react", "next", "sass", "nodejs", "mapboxgl", "typescript"],
     urlImage:
       "https://res.cloudinary.com/djophy5vk/image/upload/v1749604327/judges_v0w3mm.webp",
@@ -64,7 +84,7 @@ export const projects: ProjectsProps[] = [
     ],
   },
   {
-    name: "8M Data N+ (Televisa)",
+    name: "8M Data N+ ( Televisa N+ )",
     technologies: [
       "react",
       "next",
@@ -84,7 +104,7 @@ export const projects: ProjectsProps[] = [
     ],
   },
   {
-    name: "Latino vote n+ (televisa)",
+    name: "Latino vote n+ ( Televisa N+ )",
     technologies: [
       "react",
       "next",
@@ -104,7 +124,7 @@ export const projects: ProjectsProps[] = [
       "https://res.cloudinary.com/djophy5vk/image/upload/v1749604368/latin-vote_rl6jws.webp",
   },
   {
-    name: "Election results 2018 & 2024 n+ (televisa)",
+    name: "Election results 2018 & 2024 n+ ( Televisa N+ )",
     technologies: [
       "react",
       "next",
@@ -124,7 +144,7 @@ export const projects: ProjectsProps[] = [
       "https://res.cloudinary.com/djophy5vk/image/upload/v1749604369/results-elections-street-view_cf7rxv.webp",
   },
   {
-    name: "presidential election maps 2024 n+ (televisa)",
+    name: "presidential election maps 2024 n+ ( Televisa N+ )",
     technologies: [
       "react",
       "next",
@@ -144,7 +164,7 @@ export const projects: ProjectsProps[] = [
       "https://res.cloudinary.com/djophy5vk/image/upload/v1749604375/presidential-map_sdpgr2.gif",
   },
   {
-    name: "governors election maps 2024 n+ (televisa)",
+    name: "governors election maps 2024 n+ ( Televisa N+ )",
     technologies: [
       "react",
       "next",
@@ -164,7 +184,7 @@ export const projects: ProjectsProps[] = [
       "https://res.cloudinary.com/djophy5vk/image/upload/v1749604371/governors-map_zaercj.gif",
   },
   {
-    name: "election maps 2023 n+ (televisa)",
+    name: "election maps 2023 n+ ( Televisa N+ )",
     technologies: [
       "react",
       "next",
