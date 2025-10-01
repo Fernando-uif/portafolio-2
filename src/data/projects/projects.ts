@@ -15,6 +15,7 @@ export const projects: ProjectsProps[] = [
     name: "Los pasantes que sostienen el sistema de salud en méxico ( Televisa N+ )",
     technologies: [
       "react",
+      "highcharts",
       "gsap",
       "next",
       "sass",
