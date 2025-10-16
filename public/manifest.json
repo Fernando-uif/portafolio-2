@@ -1,0 +1,21 @@
+{
+  "name": "Fernando Sosa T. - Web Developer",
+  "short_name": "Fernando Sosa",
+  "description": "Located in Mexico City. I am a web developer passionate about building accessible web applications as well as learning new technologies that allow me to create interesting elements",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#141514",
+  "theme_color": "#141514",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
