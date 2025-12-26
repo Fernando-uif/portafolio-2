@@ -10,7 +10,7 @@ interface ViewProps {
 }
 export const projects: ProjectsProps[] = [
   {
-    name: "Mapa iteractivo mundial ( Televisa N+ )",
+    name: "Interactive Map World Cup ( Televisa N+ )",
     technologies: ["react", "highcharts", "next", "css", "typescript"],
     urlImage:
       "https://res.cloudinary.com/djophy5vk/image/upload/v1766712205/Screenshot-2025-12-25-at-19.21.31_szb2tb.webp",
@@ -22,7 +22,7 @@ export const projects: ProjectsProps[] = [
     ],
   },
   {
-    name: "Los pasantes que sostienen el sistema de salud en méxico ( Televisa N+ )",
+    name: "Interns Who Support the Healthcare System in Mexico ( Televisa N+ )",
     technologies: [
       "react",
       "highcharts",
