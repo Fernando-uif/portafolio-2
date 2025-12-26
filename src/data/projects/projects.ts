@@ -1,5 +1,3 @@
-import { StringifyOptions } from "querystring";
-
 export interface ProjectsProps {
   name: string;
   technologies: string[];
@@ -11,6 +9,18 @@ interface ViewProps {
   url: string;
 }
 export const projects: ProjectsProps[] = [
+  {
+    name: "Mapa iteractivo mundial ( Televisa N+ )",
+    technologies: ["react", "highcharts", "next", "css", "typescript"],
+    urlImage:
+      "https://res.cloudinary.com/djophy5vk/image/upload/v1766712205/Screenshot-2025-12-25-at-19.21.31_szb2tb.webp",
+    view: [
+      {
+        name: "view project",
+        url: "https://www.nmas.com.mx/noticieros/programas/despierta/videos/rumbo-al-mundial-2026-explicacion-las-seis-confederaciones-la-fifa/",
+      },
+    ],
+  },
   {
     name: "Los pasantes que sostienen el sistema de salud en méxico ( Televisa N+ )",
     technologies: [
@@ -300,18 +310,6 @@ export const projects: ProjectsProps[] = [
     ],
   },
   {
-    name: "Portafolio 1",
-    technologies: ["html", "css", "typeScript"],
-    view: [
-      {
-        name: "view project",
-        url: "https://fernando-uif.github.io/portafolio/",
-      },
-    ],
-    urlImage:
-      "https://res.cloudinary.com/djophy5vk/image/upload/v1749604369/portafolio-1_wwfi1t.webp",
-  },
-  {
     name: "sunnyside",
     technologies: ["html", "sass", "react"],
     view: [
@@ -378,21 +376,22 @@ export const projects: ProjectsProps[] = [
       "https://res.cloudinary.com/djophy5vk/image/upload/v1749604367/natures_vhsswf.webp",
   },
 
-  // {
-  //   name: "bookmark",
-  //   technologies: ["html", "css", "tailwind", "javascript", "github"],
-  //   view: [
-  //     {
-  //       name: "view project",
-  //       url: "https://fernando-uif.github.io/bookmark/",
-  //     },
-  //     {
-  //       name: "view code",
-  //       url: "https://github.com/Fernando-uif/bookmark",
-  //     },
-  //   ],
-  //   urlImage: "https://res.cloudinary.com/djophy5vk/image/upload/v1749604365/bookmark_tfw7m7.webp",
-  // },
+  {
+    name: "bookmark",
+    technologies: ["html", "css", "tailwind", "javascript", "github"],
+    view: [
+      {
+        name: "view project",
+        url: "https://fernando-uif.github.io/bookmark/",
+      },
+      {
+        name: "view code",
+        url: "https://github.com/Fernando-uif/bookmark",
+      },
+    ],
+    urlImage:
+      "https://res.cloudinary.com/djophy5vk/image/upload/v1749604365/bookmark_tfw7m7.webp",
+  },
   {
     name: "credit Card",
     technologies: ["html", "sass", "javascript"],
@@ -409,6 +408,7 @@ export const projects: ProjectsProps[] = [
     urlImage:
       "https://res.cloudinary.com/djophy5vk/image/upload/v1749604366/creditCard_gjmbos.webp",
   },
+
   {
     name: "E-commerce",
     technologies: ["html", "sass", "javascript"],
@@ -425,19 +425,20 @@ export const projects: ProjectsProps[] = [
     urlImage:
       "https://res.cloudinary.com/djophy5vk/image/upload/v1749604365/commerce_gk0wb3.webp",
   },
-  // {
-  //   name: "loop-studio",
-  //   technologies: ["html", "sass", "tailwind"],
-  //   view: [
-  //     {
-  //       name: "view project",
-  //       url: "https://fernando-uif.github.io/loop-studio/",
-  //     },
-  //     {
-  //       name: "view code",
-  //       url: "https://github.com/Fernando-uif/loop-studio",
-  //     },
-  //   ],
-  //   urlImage: "https://res.cloudinary.com/djophy5vk/image/upload/v1749604368/loopstudio_qer2bs.webp",
-  // },
+  {
+    name: "loop-studio",
+    technologies: ["html", "sass", "tailwind"],
+    view: [
+      {
+        name: "view project",
+        url: "https://fernando-uif.github.io/loop-studio/",
+      },
+      {
+        name: "view code",
+        url: "https://github.com/Fernando-uif/loop-studio",
+      },
+    ],
+    urlImage:
+      "https://res.cloudinary.com/djophy5vk/image/upload/v1749604368/loopstudio_qer2bs.webp",
+  },
 ];

@@ -1,49 +1,59 @@
 @import "../variables/color.scss";
+
 .project {
   @media screen and (min-width: 1440px) {
     max-width: 1440px;
     margin: 0 auto;
   }
+
   &__wrapperTitle {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 19px;
     margin-bottom: 40px;
+
     @media screen and (min-width: 766px) {
       padding: 0 32px;
     }
+
     @media screen and (min-width:1441px) {
-        padding:unset;
+      padding: unset;
     }
   }
+
   &__title {
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
-    line-height: 40px; /* 100% */
+    line-height: 40px;
+    /* 100% */
     letter-spacing: -1.136px;
     color: $light;
     margin: unset;
+
     @media screen and (min-width: 766px) {
       font-size: 72px;
       font-style: normal;
       font-weight: 700;
-      line-height: 72px; /* 100% */
+      line-height: 72px;
+      /* 100% */
       letter-spacing: -2.045px;
     }
   }
+
   &__wrapperProjects {
     @media screen and (min-width: 766px) {
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(3, 1fr);
       padding: 0 32px;
       column-gap: 20px;
       row-gap: 60px;
       margin-bottom: 100px;
     }
+
     @media screen and (min-width:1441px) {
-        padding:unset;
+      padding: unset;
     }
   }
 }
