@@ -45,11 +45,16 @@
   &__wrapperProjects {
     @media screen and (min-width: 766px) {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(2, 1fr);
       padding: 0 32px;
       column-gap: 20px;
       row-gap: 60px;
       margin-bottom: 100px;
+    }
+
+    @media screen and (min-width: 1000px) {
+      grid-template-columns: repeat(3, 1fr);
+
     }
 
     @media screen and (min-width:1441px) {
