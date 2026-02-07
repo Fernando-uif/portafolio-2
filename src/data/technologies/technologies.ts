@@ -51,6 +51,9 @@ export const technologies: TechnologiesProps[] = [
     name: "nextjs",
   },
   {
+    name: "Storybook",
+  },
+  {
     name: "mapbox studio",
   },
   {
