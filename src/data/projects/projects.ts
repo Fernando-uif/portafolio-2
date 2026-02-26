@@ -10,6 +10,25 @@ interface ViewProps {
 }
 export const projects: ProjectsProps[] = [
   {
+    name: "Bakemono band",
+    technologies: [
+      "react",
+      "sass",
+      "next",
+      "typescript",
+      "payload",
+      "database",
+    ],
+    urlImage:
+      "https://res.cloudinary.com/djophy5vk/image/upload/v1772069040/Screenshot_2026-02-25_at_19.21.06_vh0m1q.webp",
+    view: [
+      {
+        name: "view project",
+        url: "https://www.bakemono.band",
+      },
+    ],
+  },
+  {
     name: "Interactive Map World Cup ( Televisa N+ )",
     technologies: ["react", "highcharts", "next", "css", "typescript"],
     urlImage:
