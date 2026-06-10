@@ -19,7 +19,7 @@ const Contact = () => {
           <button className={`${downloadStyle["download__button"]}`}>
             <Link
               target="_blank"
-              href="/docs/Fernando Sosa-CV-EN-2026.pdf"
+              href="/docs/Fernando-Sosa-CV-EN-2026.pdf"
               download
               className={`${downloadStyle["download__button-span"]}`}
             >
