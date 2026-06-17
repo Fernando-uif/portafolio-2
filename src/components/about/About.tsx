@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 import Icon from "../Icons/Icon";
 import ContactMe from "../contact/ContactMe";
 import ContactMeIcons from "../contact/ContactMeIcons";
