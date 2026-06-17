@@ -21,16 +21,6 @@ const About = () => {
 
       <div className={`${aboutStyle["about__wrapperAboutGreetings"]}`}>
         <figure className={`${aboutStyle["about__wrapperImage"]}`}>
-          <Image
-            src={
-              "https://res.cloudinary.com/djophy5vk/image/upload/v1749674986/profile-image_zpox9j.png"
-            }
-            alt="fernando sosa"
-            height={242}
-            width={174}
-            className={`${aboutStyle["about__profileImage"]}`}
-            priority
-          />
           <svg
             className={`${aboutStyle["about__svg_circle"]}`}
             xmlns="http://www.w3.org/2000/svg"

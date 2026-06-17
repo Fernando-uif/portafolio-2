@@ -7,37 +7,47 @@ import ContactMe from "../contact/ContactMe";
 const SingleProject = ({
   name,
   technologies,
-  urlImage,
+  urlMedia,
   view,
 }: ProjectsProps) => {
   return (
     <>
       <figure className={`${singleProjectStyle["singleProject"]}`}>
         <div className={`${singleProjectStyle["singleProject__wrapperImage"]}`}>
-          <div
-            className={`${singleProjectStyle["singleProject__wrapperSources-hover"]}`}
-          >
-            {Children.toArray(
-              view.map((src, index) => {
-                if (!src?.name) return <></>;
-                return (
-                  <>
-                    <ContactMe name={src.name} url={src.url} />
-                  </>
-                );
-              })
-            )}
-          </div>
-
-          <Image
-            src={urlImage}
-            alt={urlImage}
-            width={800}
-            height={600}
-            className={`${singleProjectStyle["singleProject__image"]}`}
-            quality={75}
-            sizes="(max-width: 600px) 80vw, (max-width: 1200px) 50vw, 33vw"
-          />
+          {urlMedia.includes(".mp4") ? (
+            <video
+              src={urlMedia}
+              muted
+              loop
+              className={`${singleProjectStyle["singleProject__video"]}`}
+              onMouseEnter={(e) => {
+                e.currentTarget.play().catch(() => {});
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.pause();
+                e.currentTarget.currentTime = 0;
+              }}
+              onClick={(e) => {
+                const video = e.currentTarget;
+                if (video.paused) {
+                  video.play().catch(() => {});
+                } else {
+                  video.pause();
+                  video.currentTime = 0;
+                }
+              }}
+            ></video>
+          ) : (
+            <Image
+              src={urlMedia}
+              alt={urlMedia}
+              width={800}
+              height={600}
+              className={`${singleProjectStyle["singleProject__image"]}`}
+              quality={75}
+              sizes="(max-width: 600px) 80vw, (max-width: 1200px) 50vw, 33vw"
+            />
+          )}
         </div>
 
         <figcaption
@@ -59,7 +69,7 @@ const SingleProject = ({
                     {techno}
                   </span>
                 </>
-              ))
+              )),
             )}
           </div>
 
@@ -74,7 +84,7 @@ const SingleProject = ({
                     <ContactMe name={src.name} url={src.url} />
                   </>
                 );
-              })
+              }),
             )}
           </div>
         </figcaption>
