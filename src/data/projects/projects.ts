@@ -309,22 +309,6 @@ export const projects: ProjectsProps[] = [
       "https://res.cloudinary.com/djophy5vk/image/upload/v1749604367/desserts_jzwezw.webp",
   },
   {
-    name: "clock-app",
-    technologies: ["tailwind", "typescript", "react"],
-    view: [
-      {
-        name: "view project",
-        url: "https://clock-app-fer.netlify.app/",
-      },
-      {
-        name: "view code",
-        url: "https://github.com/Fernando-uif/clock-app",
-      },
-    ],
-    urlMedia:
-      "https://res.cloudinary.com/djophy5vk/image/upload/v1749604366/clock-app_ec5hnh.webp",
-  },
-  {
     name: "todo app",
     technologies: ["react", "zustand", "sass", "typescript"],
     urlMedia:
