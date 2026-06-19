@@ -10,7 +10,19 @@ interface ViewProps {
 }
 export const projects: ProjectsProps[] = [
   {
-    name: "Coahuila Elections 2026 (Televisa N+)",
+    name: "World cup 2026 - Compare Teams ( Televisa N+ )",
+    technologies: ["react", "sass", "next", "typescript", "highcharts", "gsap"],
+    urlMedia:
+      "https://res.cloudinary.com/djophy5vk/image/upload/v1781907699/Magic-worldcup_cwzlc5.webp",
+    view: [
+      {
+        name: "view project",
+        url: "https://www.nmas.com.mx/deportes/portugal-vs-congo-asi-llegan-ambas-selecciones-a-su-debut-en-el-mundial-2026/",
+      },
+    ],
+  },
+  {
+    name: "Coahuila Elections 2026 ( Televisa N+ )",
     technologies: ["react", "sass", "next", "typescript", "highcharts"],
     urlMedia:
       "https://res.cloudinary.com/djophy5vk/video/upload/v1781713732/coahuila-2026_t4sgm2.mp4",
@@ -126,7 +138,7 @@ export const projects: ProjectsProps[] = [
     ],
   },
   {
-    name: "8M Data N+ ( Televisa N+ )",
+    name: "8M Data ( Televisa N+ )",
     technologies: [
       "react",
       "next",
@@ -146,7 +158,7 @@ export const projects: ProjectsProps[] = [
     ],
   },
   {
-    name: "Latino vote n+ ( Televisa N+ )",
+    name: "Latino vote ( Televisa N+ )",
     technologies: [
       "react",
       "next",
@@ -166,7 +178,7 @@ export const projects: ProjectsProps[] = [
       "https://res.cloudinary.com/djophy5vk/image/upload/v1749604368/latin-vote_rl6jws.webp",
   },
   {
-    name: "Election results 2018 & 2024 n+ ( Televisa N+ )",
+    name: "Election results 2018 & 2024 ( Televisa N+ )",
     technologies: [
       "react",
       "next",
@@ -186,7 +198,7 @@ export const projects: ProjectsProps[] = [
       "https://res.cloudinary.com/djophy5vk/image/upload/v1749604369/results-elections-street-view_cf7rxv.webp",
   },
   {
-    name: "presidential election maps 2024 n+ ( Televisa N+ )",
+    name: "presidential election maps 2024 ( Televisa N+ )",
     technologies: [
       "react",
       "next",
@@ -206,7 +218,7 @@ export const projects: ProjectsProps[] = [
       "https://res.cloudinary.com/djophy5vk/image/upload/v1749604375/presidential-map_sdpgr2.gif",
   },
   {
-    name: "governors election maps 2024 n+ ( Televisa N+ )",
+    name: "governors election maps 2024 ( Televisa N+ )",
     technologies: [
       "react",
       "next",
@@ -226,7 +238,7 @@ export const projects: ProjectsProps[] = [
       "https://res.cloudinary.com/djophy5vk/image/upload/v1749604371/governors-map_zaercj.gif",
   },
   {
-    name: "election maps 2023 n+ ( Televisa N+ )",
+    name: "election maps 2023 ( Televisa N+ )",
     technologies: [
       "react",
       "next",
