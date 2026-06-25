@@ -12,23 +12,7 @@ const SingleProject = ({
   urlMedia,
   view,
 }: ProjectsProps) => {
-  const [isTouch, setIsTouch] = useState(false);
-
   const videoRef = useRef<HTMLVideoElement>(null);
-
-  useEffect(() => {
-    const mq = window.matchMedia("(max-width: 768px)");
-    setIsTouch(mq.matches);
-
-    if (mq.matches && videoRef.current) {
-      videoRef.current.play().catch(() => {});
-    }
-
-    const handler = (e: MediaQueryListEvent) => setIsTouch(e.matches);
-    mq.addEventListener("change", handler);
-
-    return () => mq.removeEventListener("change", handler);
-  }, []);
 
   return (
     <>
@@ -45,15 +29,11 @@ const SingleProject = ({
                 controls={false}
                 className={singleProjectStyle["singleProject__video"]}
                 onMouseEnter={(e) => {
-                  if (!isTouch) {
-                    e.currentTarget.play().catch(() => {});
-                  }
+                  e.currentTarget.play().catch(() => {});
                 }}
                 onMouseLeave={(e) => {
-                  if (!isTouch) {
-                    e.currentTarget.pause();
-                    e.currentTarget.currentTime = 0;
-                  }
+                  e.currentTarget.pause();
+                  e.currentTarget.currentTime = 0;
                 }}
               />
             </>
