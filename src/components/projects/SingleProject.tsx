@@ -12,31 +12,27 @@ const SingleProject = ({
   urlMedia,
   view,
 }: ProjectsProps) => {
-  const videoRef = useRef<HTMLVideoElement>(null);
-
   return (
     <>
       <figure className={`${singleProjectStyle["singleProject"]}`}>
         <div className={singleProjectStyle["singleProject__wrapperImage"]}>
           {urlMedia.includes(".mp4") ? (
-            <>
-              <video
-                ref={videoRef}
-                src={urlMedia}
-                muted
-                loop
-                playsInline
-                controls={false}
-                className={singleProjectStyle["singleProject__video"]}
-                onMouseEnter={(e) => {
-                  e.currentTarget.play().catch(() => {});
-                }}
-                onMouseLeave={(e) => {
-                  e.currentTarget.pause();
-                  e.currentTarget.currentTime = 0;
-                }}
-              />
-            </>
+            <video
+              src={urlMedia}
+              muted
+              autoPlay
+              loop
+              playsInline
+              controls={false}
+              className={singleProjectStyle["singleProject__video"]}
+              onMouseEnter={(e) => {
+                e.currentTarget.play().catch(() => {});
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.pause();
+                e.currentTarget.currentTime = 0;
+              }}
+            />
           ) : (
             <Image
               src={urlMedia}
@@ -45,7 +41,7 @@ const SingleProject = ({
               height={600}
               className={`${singleProjectStyle["singleProject__image"]}`}
               quality={75}
-              sizes="(max-width: 600px) 80vw, (max-width: 1200px) 50vw, 33vw"
+              sizes="(max-width: 600px) 90vw, (max-width: 1200px) 50vw, 33vw"
             />
           )}
         </div>
