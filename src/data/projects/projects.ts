@@ -13,6 +13,18 @@ export const projects: ProjectsProps[] = [
     name: "World cup 2026 - Compare Teams ( Televisa N+ )",
     technologies: ["react", "sass", "next", "typescript", "highcharts", "gsap"],
     urlMedia:
+      "https://res.cloudinary.com/djophy5vk/image/upload/v1783391463/Screenshot_2026-07-06_at_20.30.15_dstxfh.webp",
+    view: [
+      {
+        name: "view project",
+        url: "https://www.nmas.com.mx/deportes/espana-vs-portugal-hoy-asi-llegan-las-selecciones-a-partido-del-mundial-2026/",
+      },
+    ],
+  },
+  {
+    name: "World cup 2026 - Compare Teams ( Televisa N+ )",
+    technologies: ["react", "sass", "next", "typescript", "highcharts", "gsap"],
+    urlMedia:
       "https://res.cloudinary.com/djophy5vk/image/upload/v1781907699/Magic-worldcup_cwzlc5.webp",
     view: [
       {
