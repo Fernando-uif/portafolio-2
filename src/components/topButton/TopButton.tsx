@@ -31,11 +31,10 @@ const TopButton = () => {
             : topButtonStyle["topButton-notShow"]
         }`}
         onClick={handleOnTop}
+        aria-label="back to top"
+        aria-hidden={!showButton}
       >
-        <Icon
-          name="upArrow"
-          className={`${topButtonStyle["topButton__icon"]}`}
-        />
+        <Icon name="upArrow" />
       </button>
     </>
   );

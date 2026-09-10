@@ -13,6 +13,8 @@ const ContactMe = ({ name, url, className }: LinkToProps) => {
         className={`${contactMeStyles["contactMe__item"]}`}
         href={url || ""}
         target="_blank"
+        aria-label={name}
+        rel="noopener noreferrer"
       >
         {name}
       </Link>

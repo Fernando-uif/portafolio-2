@@ -5,16 +5,19 @@ import contactIconStyle from "@/sass/contact/contactMeIcons.module.scss";
 const ContactMeIcons = () => {
   return (
     <div className={`${contactIconStyle["contactIcons__wrapperName__icons"]}`}>
-      
       <Link
         href={"https://www.linkedin.com/in/fernando-sosa-fst/"}
         className={`${contactIconStyle["contactIcons--item"]}`}
+        aria-label="linkedin"
+        rel="noopener noreferrer"
       >
         <Icon name="linkedin" />
       </Link>
       <Link
         href={"https://github.com/Fernando-uif"}
         className={`${contactIconStyle["contactIcons--item"]}`}
+        aria-label="github"
+        rel="noopener noreferrer"
       >
         <Icon name="github" />
       </Link>

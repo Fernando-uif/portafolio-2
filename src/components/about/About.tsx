@@ -57,6 +57,7 @@ const About = () => {
             <ContactMe
               name="contact me"
               url="https://www.linkedin.com/in/fernando-sosa-fst/"
+              
             />
           </div>
         </div>

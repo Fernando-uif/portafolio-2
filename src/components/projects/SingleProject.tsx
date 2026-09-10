@@ -36,7 +36,7 @@ const SingleProject = ({
           ) : (
             <Image
               src={urlMedia}
-              alt={urlMedia}
+              alt={name}
               width={800}
               height={600}
               className={`${singleProjectStyle["singleProject__image"]}`}
